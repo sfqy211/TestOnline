@@ -1,6 +1,6 @@
 using SqlSugar;
 
-namespace TestOnLine.Models
+namespace TestOnLine.Models.Data
 {
     public class Course
     {
@@ -11,8 +11,10 @@ namespace TestOnLine.Models
 
         public bool IsExam { get; set; }
 
-        public string Name { get; set; }
+        public required string Name { get; set; }
 
         public float Credit { get; set; }
+
+        public float Score { get; set; }
     }
 }

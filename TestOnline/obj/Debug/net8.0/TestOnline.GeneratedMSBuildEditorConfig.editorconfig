@@ -68,12 +68,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxfR3JhZGVNYW5hZ2VtZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AHEU/3rd_year/codelearn/aspnet/TestOnline/TestOnline/Views/Student/_PersonalInfo.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxfUGVyc29uYWxJbmZvLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/AHEU/3rd_year/codelearn/aspnet/TestOnline/TestOnline/Views/Teacher/TeacherDashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxUZWFjaGVyRGFzaGJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AHEU/3rd_year/codelearn/aspnet/TestOnline/TestOnline/Views/Teacher/_CourseManagement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxfQ291cnNlTWFuYWdlbWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AHEU/3rd_year/codelearn/aspnet/TestOnline/TestOnline/Views/Teacher/_ExamManagement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxfRXhhbU1hbmFnZW1lbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/AHEU/3rd_year/codelearn/aspnet/TestOnline/TestOnline/Views/_ViewImports.cshtml]

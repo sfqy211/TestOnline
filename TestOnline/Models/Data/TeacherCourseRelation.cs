@@ -1,6 +1,6 @@
 using SqlSugar;
 
-namespace TestOnline.Models
+namespace TestOnLine.Models.Data
 {
     public class TeacherCourseRelation
     {

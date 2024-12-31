@@ -1,12 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace TestOnLine.Controllers
+namespace TestOnLine.Controllers.Admin
 {
     public class AdminController : Controller
     {
         public IActionResult AdminDashboard()
         {
-            return View("~/Views/UI/AdminDashboard.cshtml");
+            return View("~/Views/Admin/AdminDashboard.cshtml");
         }
     }
 }

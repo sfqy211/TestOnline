@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B21AE84A-D705-4724-8B71-F8BC5C6F55B8}|TestOnline\\TestOnLine.csproj|d:\\aheu\\3rd_year\\codelearn\\aspnet\\testonline\\testonline\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B21AE84A-D705-4724-8B71-F8BC5C6F55B8}|TestOnline\\TestOnLine.csproj|solutionrelative:testonline\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B21AE84A-D705-4724-8B71-F8BC5C6F55B8}|TestOnline\\TestOnLine.csproj|d:\\aheu\\3rd_year\\codelearn\\aspnet\\testonline\\testonline\\models\\data\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21AE84A-D705-4724-8B71-F8BC5C6F55B8}|TestOnline\\TestOnLine.csproj|solutionrelative:testonline\\models\\data\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21AE84A-D705-4724-8B71-F8BC5C6F55B8}|TestOnline\\TestOnLine.csproj|d:\\aheu\\3rd_year\\codelearn\\aspnet\\testonline\\testonline\\models\\management\\exammanagementmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21AE84A-D705-4724-8B71-F8BC5C6F55B8}|TestOnline\\TestOnLine.csproj|solutionrelative:testonline\\models\\management\\exammanagementmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21AE84A-D705-4724-8B71-F8BC5C6F55B8}|TestOnline\\TestOnLine.csproj|d:\\aheu\\3rd_year\\codelearn\\aspnet\\testonline\\testonline\\controllers\\student\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21AE84A-D705-4724-8B71-F8BC5C6F55B8}|TestOnline\\TestOnLine.csproj|solutionrelative:testonline\\controllers\\student\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B21AE84A-D705-4724-8B71-F8BC5C6F55B8}|TestOnline\\TestOnLine.csproj|d:\\aheu\\3rd_year\\codelearn\\aspnet\\testonline\\testonline\\views\\student\\studentdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B21AE84A-D705-4724-8B71-F8BC5C6F55B8}|TestOnline\\TestOnLine.csproj|solutionrelative:testonline\\views\\student\\studentdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21AE84A-D705-4724-8B71-F8BC5C6F55B8}|TestOnline\\TestOnLine.csproj|d:\\aheu\\3rd_year\\codelearn\\aspnet\\testonline\\testonline\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B21AE84A-D705-4724-8B71-F8BC5C6F55B8}|TestOnline\\TestOnLine.csproj|solutionrelative:testonline\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B21AE84A-D705-4724-8B71-F8BC5C6F55B8}|TestOnline\\TestOnLine.csproj|d:\\aheu\\3rd_year\\codelearn\\aspnet\\testonline\\testonline\\views\\login\\validate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B21AE84A-D705-4724-8B71-F8BC5C6F55B8}|TestOnline\\TestOnLine.csproj|solutionrelative:testonline\\views\\login\\validate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B21AE84A-D705-4724-8B71-F8BC5C6F55B8}|TestOnline\\TestOnLine.csproj|d:\\aheu\\3rd_year\\codelearn\\aspnet\\testonline\\testonline\\views\\teacher\\_exammanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B21AE84A-D705-4724-8B71-F8BC5C6F55B8}|TestOnline\\TestOnLine.csproj|solutionrelative:testonline\\views\\teacher\\_exammanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -37,66 +41,69 @@
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Validate.cshtml",
-              "DocumentMoniker": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\Views\\Login\\Validate.cshtml",
-              "RelativeDocumentMoniker": "TestOnline\\Views\\Login\\Validate.cshtml",
-              "ToolTip": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\Views\\Login\\Validate.cshtml",
-              "RelativeToolTip": "TestOnline\\Views\\Login\\Validate.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-30T12:50:56.061Z",
+              "DocumentIndex": 0,
+              "Title": "Exam.cs",
+              "DocumentMoniker": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\Models\\Data\\Exam.cs",
+              "RelativeDocumentMoniker": "TestOnline\\Models\\Data\\Exam.cs",
+              "ToolTip": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\Models\\Data\\Exam.cs",
+              "RelativeToolTip": "TestOnline\\Models\\Data\\Exam.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T12:45:17.001Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "TestOnline\\Controllers\\LoginController.cs",
-              "ToolTip": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "TestOnline\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAmwAsAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T12:46:54.133Z",
-              "EditorCaption": ""
+              "DocumentIndex": 4,
+              "Title": "_ExamManagement.cshtml",
+              "DocumentMoniker": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\Views\\Teacher\\_ExamManagement.cshtml",
+              "RelativeDocumentMoniker": "TestOnline\\Views\\Teacher\\_ExamManagement.cshtml",
+              "ToolTip": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\Views\\Teacher\\_ExamManagement.cshtml",
+              "RelativeToolTip": "TestOnline\\Views\\Teacher\\_ExamManagement.cshtml",
+              "ViewState": "AgIAAAQAAAAAzczMzMwIwA8AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-31T12:43:37.904Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ExamManagementModel.cs",
+              "DocumentMoniker": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\Models\\Management\\ExamManagementModel.cs",
+              "RelativeDocumentMoniker": "TestOnline\\Models\\Management\\ExamManagementModel.cs",
+              "ToolTip": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\Models\\Management\\ExamManagementModel.cs",
+              "RelativeToolTip": "TestOnline\\Models\\Management\\ExamManagementModel.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAEAzwAkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T12:27:00.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\Controllers\\Student\\StudentController.cs",
+              "RelativeDocumentMoniker": "TestOnline\\Controllers\\Student\\StudentController.cs",
+              "ToolTip": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\Controllers\\Student\\StudentController.cs",
+              "RelativeToolTip": "TestOnline\\Controllers\\Student\\StudentController.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAiwFcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T12:23:00.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "StudentDashboard.cshtml",
               "DocumentMoniker": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\Views\\Student\\StudentDashboard.cshtml",
               "RelativeDocumentMoniker": "TestOnline\\Views\\Student\\StudentDashboard.cshtml",
               "ToolTip": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\Views\\Student\\StudentDashboard.cshtml",
               "RelativeToolTip": "TestOnline\\Views\\Student\\StudentDashboard.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBQAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAABAzczMzMwDwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-30T12:45:50.402Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StudentController.cs",
-              "DocumentMoniker": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\Controllers\\StudentController.cs",
-              "RelativeDocumentMoniker": "TestOnline\\Controllers\\StudentController.cs",
-              "ToolTip": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\Controllers\\StudentController.cs",
-              "RelativeToolTip": "TestOnline\\Controllers\\StudentController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAADwvxsAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T12:45:41.638Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 135,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+              "WhenOpened": "2024-12-31T12:14:50.302Z"
             }
           ]
         }

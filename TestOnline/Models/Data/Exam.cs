@@ -1,6 +1,6 @@
 using SqlSugar;
 
-namespace TestOnLine.Models
+namespace TestOnLine.Models.Data
 {
     public class Exam
     {
@@ -9,15 +9,11 @@ namespace TestOnLine.Models
 
         public int CourseId { get; set; }
 
-        public string Name { get; set; }
+        public required string ExamName { get; set; }
 
-        public string Data { get; set; }
+        public required string Data { get; set; }
 
-        public string RightAnswer { get; set; }
-
-        public string StudentAnswer { get; set; }
-
-        public string Description { get; set; }
+        public required string Description { get; set; }
 
         public DateTime StartTime { get; set; }
 

@@ -1,6 +1,6 @@
 using SqlSugar;
 
-namespace TestOnLine.Models
+namespace TestOnLine.Models.Data
 {
     public class Class
     {

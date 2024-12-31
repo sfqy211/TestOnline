@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SqlSugar;
-using TestOnLine.Models;
 
 namespace TestOnLine.Controllers
 {
@@ -19,7 +18,7 @@ namespace TestOnLine.Controllers
             {
                 if(id == 123456 && password == "admin")
                     return RedirectToAction("AdminDashboard", "Admin");
-                var teacher = _db.Queryable<Teacher>().Where(it => it.TeacherId == id && it.Password == password).First();
+                var teacher = _db.Queryable<Models.Data.Teacher>().Where(it => it.TeacherId == id && it.Password == password).First();
                 if (teacher != null)
                     return RedirectToAction("TeacherDashboard", "Teacher", new { id = teacher.TeacherId });
                 else
@@ -30,7 +29,7 @@ namespace TestOnLine.Controllers
             }
             else if (role == "student")
             {
-                var student = _db.Queryable<Student>().Where(it => it.StudentId == id && it.Password == password).First();
+                var student = _db.Queryable<Models.Data.Student>().Where(it => it.StudentId == id && it.Password == password).First();
                 if (student != null)
                     return RedirectToAction("StudentDashboard", "Student", new { id = student.StudentId });
                 else

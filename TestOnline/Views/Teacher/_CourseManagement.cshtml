@@ -1,0 +1,24 @@
+﻿@page
+@using TestOnLine.Models.Management
+@model CourseManagementModel
+@{
+    ViewData["Title"] = "课程管理";
+}
+
+<h3>课程管理</h3>
+
+<h4>目前正在学的课程</h4>
+<ul>
+    @foreach (var course in Model.CurrentCourses)
+    {
+        <li>@course.Name</li>
+    }
+</ul>
+
+<h4>已经结束的课程</h4>
+<ul>
+    @foreach (var course in Model.CompletedCourses)
+    {
+        <li>@course.Name</li>
+    }
+</ul>
