@@ -1,7 +1,101 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model GradeManagementModel
 @{
+    ViewData["Title"] = "成绩管理";
+    var studentId = ViewBag.StudentId;
 }
+
 <h3>成绩管理</h3>
-<p>这里是成绩管理的内容。</p>
+
+<h4>课程总成绩</h4>
+<ul>
+    @foreach (var courseGrade in Model.CourseGrades)
+    {
+        <li>@courseGrade.CourseName: @courseGrade.TotalScore</li>
+    }
+</ul>
+
+<h4>考试成绩</h4>
+<ul>
+    @foreach (var examGrade in Model.ExamGrades)
+    {
+        <li>@examGrade.ExamName: @examGrade.Score</li>
+    }
+</ul>
+
+@code {
+    public class GradeManagementModel : PageModel
+    {
+        private readonly ISqlSugarClient _db;
+
+        public GradeManagementModel(ISqlSugarClient db)
+        {
+            _db = db;
+        }
+
+        public List<CourseGrade> CourseGrades { get; set; }
+        public List<ExamGrade> ExamGrades { get; set; }
+
+        public async Task OnGetAsync(int studentId)
+        {
+            // 查询学生所在班级
+            var student = await _db.Queryable<Student>().Where(s => s.StudentId == studentId).FirstAsync();
+            if (student == null)
+            {
+                return;
+            }
+
+            var classId = student.ClassId;
+
+            // 查询学生所上的课程
+            var courses = await _db.Queryable<Course>()
+                .Where(c => SqlFunc.Subqueryable<ClassCourseRelation>()
+                    .Where(ccr => ccr.CourseId == c.CourseId && ccr.ClassId == classId)
+                    .Any())
+                .ToListAsync();
+
+            // 查询课程总成绩和考试成绩
+            CourseGrades = new List<CourseGrade>();
+            ExamGrades = new List<ExamGrade>();
+
+            foreach (var course in courses)
+            {
+                // 查询课程总成绩
+                var totalScore = await _db.Queryable<Exam>()
+                    .Where(e => e.CourseId == course.CourseId && e.EndTime <= DateTime.Now)
+                    .SumAsync(e => e.Score);
+
+                CourseGrades.Add(new CourseGrade
+                {
+                    CourseName = course.Name,
+                    TotalScore = totalScore
+                });
+
+                // 查询考试成绩
+                var exams = await _db.Queryable<Exam>()
+                    .Where(e => e.CourseId == course.CourseId && e.EndTime <= DateTime.Now)
+                    .ToListAsync();
+
+                foreach (var exam in exams)
+                {
+                    ExamGrades.Add(new ExamGrade
+                    {
+                        ExamName = exam.Name,
+                        Score = exam.Score
+                    });
+                }
+            }
+        }
+    }
+
+    public class CourseGrade
+    {
+        public string CourseName { get; set; }
+        public float TotalScore { get; set; }
+    }
+
+    public class ExamGrade
+    {
+        public string ExamName { get; set; }
+        public float Score { get; set; }
+    }
+}

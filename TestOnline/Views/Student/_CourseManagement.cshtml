@@ -1,7 +1,23 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@page
+@model TestOnline.Models.CourseManagementModel
 @{
+    ViewData["Title"] = "课程管理";
 }
+
 <h3>课程管理</h3>
-<p>这里是课程管理的内容。</p>
+
+<h4>目前正在学的课程</h4>
+<ul>
+    @foreach (var course in Model.CurrentCourses)
+    {
+        <li>@course.Name</li>
+    }
+</ul>
+
+<h4>已经结束的课程</h4>
+<ul>
+    @foreach (var course in Model.CompletedCourses)
+    {
+        <li>@course.Name</li>
+    }
+</ul>

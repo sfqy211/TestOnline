@@ -1,7 +1,63 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@page
+@model ExamManagementModel
 @{
+    ViewData["Title"] = "考试管理";
+    var studentId = ViewBag.StudentId;
 }
+
 <h3>考试管理</h3>
-<p>这里是考试管理的内容。</p>
+
+<h4>目前正在进行的考试</h4>
+<ul>
+    @foreach (var exam in Model.OngoingExams)
+    {
+        <li>
+            <strong>科目:</strong> @exam.CourseName <br />
+            <strong>考试名称:</strong> <a href="/Exam/Start/@exam.ExamId?studentId=@studentId">@exam.ExamName</a> <br />
+            <strong>截止时间:</strong> @exam.EndTime.ToString("yyyy-MM-dd HH:mm:ss")
+        </li>
+    }
+</ul>
+
+@code {
+    public class ExamManagementModel : PageModel
+    {
+        private readonly ISqlSugarClient _db;
+
+        public ExamManagementModel(ISqlSugarClient db)
+        {
+            _db = db;
+        }
+
+        public List<OngoingExam> OngoingExams { get; set; }
+
+        public async Task OnGetAsync()
+        {
+            // 查询当前正在进行的考试
+            OngoingExams = await _db.Queryable<Exam, Course>((e, c) => new JoinQueryInfos(
+                    JoinType.Inner, e.CourseId == c.CourseId
+                ))
+                .Where((e, c) => e.EndTime > DateTime.Now && SqlFunc.Subqueryable<ClassCourseRelation>()
+                    .Where(ccr => ccr.CourseId == c.CourseId && SqlFunc.Subqueryable<Student>()
+                        .Where(s => s.StudentId == studentId && s.ClassId == ccr.ClassId)
+                        .Any())
+                    .Any())
+                .Select((e, c) => new OngoingExam
+                {
+                    ExamId = e.ExamId,
+                    CourseName = c.Name,
+                    ExamName = e.Name,
+                    EndTime = e.EndTime
+                })
+                .ToListAsync();
+        }
+    }
+
+    public class OngoingExam
+    {
+        public int ExamId { get; set; }
+        public string CourseName { get; set; }
+        public string ExamName { get; set; }
+        public DateTime EndTime { get; set; }
+    }
+}
