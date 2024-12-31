@@ -11,24 +11,25 @@
                 <p>@teacherId</p>
             </div>
             <nav class="nav flex-column">
-                <a class="nav-link" href="#" onclick="loadContent('CourseManagement', @teacherId)">课程管理</a>
-                <a class="nav-link" href="#" onclick="loadContent('ExamManagement', @teacherId)">考试管理</a>
+                <button class="nav-link btn btn-link" onclick="loadContent(event, 'CourseManagement', @teacherId)">课程管理</button>
+                <button class="nav-link btn btn-link" onclick="loadContent(event, 'ExamManagement', @teacherId)">考试管理</button>
             </nav>
         </div>
         <div class="col-md-9" id="content">
-            @await Html.PartialAsync("_CourseManagement", new { teacherId = teacherId })
+            <h3>欢迎, @ViewBag.TeacherName!</h3>
+            <p>请选择左侧菜单中的一个选项来管理您的课程或考试。</p>
         </div>
     </div>
 </div>
 
 @section Scripts {
-        <script>
-            function loadContent(viewName, teacherId) {
-                fetch('/TeacherDashboard/LoadView?viewName=' + viewName + '&teacherId=' + teacherId)
-                    .then(response => response.text())
-                    .then(html => {
-                        document.getElementById('content').innerHTML = html;
-                    });
-            }
-        </script>
+            <script>
+                function loadContent(event, viewName, teacherId) {
+                    fetch('/Teacher/LoadView?viewName=' + viewName + '&teacherId=' + teacherId)
+                        .then(response => response.text())
+                        .then(html => {
+                            document.getElementById('content').innerHTML = html;
+                        });
+                }
+            </script>
 }

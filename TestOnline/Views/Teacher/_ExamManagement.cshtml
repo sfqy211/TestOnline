@@ -1,5 +1,4 @@
-﻿@page
-@using TestOnLine.Models.Management
+﻿@using TestOnLine.Models.Management
 @model ExamManagementModel
 @{
     ViewData["Title"] = "考试管理";
@@ -14,7 +13,7 @@
     {
             <li>
                 <strong>科目:</strong> @exam.CourseName <br />
-                    <strong>考试名称:</strong> <a href="/Exam/Start/@exam.ExamId?teacherId=@teacherId">@exam.ExamName</a> <br />
+                <strong>考试名称:</strong> <a href="/Exam/Start/@exam.ExamId?teacherId=@teacherId">@exam.ExamName</a> <br />
                 <strong>截止时间:</strong> @exam.EndTime.ToString("yyyy-MM-dd HH:mm:ss")
             </li>
     }

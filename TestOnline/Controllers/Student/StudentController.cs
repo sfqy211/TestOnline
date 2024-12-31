@@ -38,7 +38,7 @@ namespace TestOnLine.Controllers.Student
                 case "GradeManagement":
                     return LoadGradeManagementView(studentId);
                 default:
-                    return LoadGradeManagementView(studentId);
+                    return NotFound();
             }
         }
 
@@ -97,7 +97,6 @@ namespace TestOnLine.Controllers.Student
 
         private IActionResult LoadGradeManagementView(int studentId)
         {
-            // 假设 GradeManagementModel 已经定义并包含所需的属性
             var model = new GradeManagementModel
             {
                 CourseGrades = new List<Course>(),
@@ -131,3 +130,4 @@ namespace TestOnLine.Controllers.Student
         }
     }
 }
+

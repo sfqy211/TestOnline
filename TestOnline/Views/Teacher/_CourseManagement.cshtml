@@ -1,13 +1,13 @@
-﻿@page
-@using TestOnLine.Models.Management
+﻿@using TestOnLine.Models.Management
 @model CourseManagementModel
 @{
     ViewData["Title"] = "课程管理";
+    var teacherId = ViewBag.TeacherId;
 }
 
 <h3>课程管理</h3>
 
-<h4>目前正在学的课程</h4>
+<h4>目前正在教的课程</h4>
 <ul>
     @foreach (var course in Model.CurrentCourses)
     {

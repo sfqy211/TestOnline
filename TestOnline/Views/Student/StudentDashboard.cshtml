@@ -11,9 +11,9 @@
                 <p>@studentId</p>
             </div>
             <nav class="nav flex-column">
-                <button class="nav-link btn btn-link" onclick="loadContent('CourseManagement', @studentId)">课程管理</button>
-                <button class="nav-link btn btn-link" onclick="loadContent('ExamManagement', @studentId)">考试管理</button>
-                <button class="nav-link btn btn-link" onclick="loadContent('GradeManagement', @studentId)">成绩管理</button>
+                <button class="nav-link btn btn-link" onclick="loadContent(event, 'CourseManagement', @studentId)">课程管理</button>
+                <button class="nav-link btn btn-link" onclick="loadContent(event, 'ExamManagement', @studentId)">考试管理</button>
+                <button class="nav-link btn btn-link" onclick="loadContent(event, 'GradeManagement', @studentId)">成绩管理</button>
             </nav>
         </div>
         <div class="col-md-9" id="content">
@@ -25,7 +25,7 @@
 
 @section Scripts {
         <script>
-            function loadContent(viewName, studentId) {
+            function loadContent(event, viewName, studentId) {
                 fetch('/Student/LoadView?viewName=' + viewName + '&studentId=' + studentId)
                     .then(response => response.text())
                     .then(html => {

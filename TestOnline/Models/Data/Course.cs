@@ -5,7 +5,7 @@ namespace TestOnLine.Models.Data
     public class Course
     {
         [SugarColumn(IsPrimaryKey = true)]
-        public int CourseId { get; set; }
+        public long CourseId { get; set; }
 
         public int FacultyId { get; set; }
 
