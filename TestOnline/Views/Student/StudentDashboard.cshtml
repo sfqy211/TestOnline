@@ -1,0 +1,36 @@
+﻿@{
+    ViewData["Title"] = "学生仪表盘";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-3 bg-light sidebar">
+            <div class="student-info p-3">
+                <h5>@ViewBag.StudentName</h5>
+                <p>@ViewBag.StudentId</p>
+            </div>
+            <nav class="nav flex-column">
+                <a class="nav-link" href="#" onclick="loadContent('CourseManagement')">课程管理</a>
+                <a class="nav-link" href="#" onclick="loadContent('ExamManagement')">考试管理</a>
+                <a class="nav-link" href="#" onclick="loadContent('GradeManagement')">成绩管理</a>
+                <a class="nav-link" href="#" onclick="loadContent('PersonalInfo')">个人信息</a>
+            </nav>
+        </div>
+        <div class="col-md-9" id="content">
+            @await Html.PartialAsync("_CourseManagement")
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+        <script>
+            function loadContent(viewName) {
+                fetch('/StudentDashboard/LoadView?viewName=' + viewName)
+                    .then(response => response.text())
+                    .then(html => {
+                        document.getElementById('content').innerHTML = html;
+                    });
+            }
+        </script>
+}
+

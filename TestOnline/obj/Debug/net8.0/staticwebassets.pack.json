@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TestOnline.bundle.scp.css",
-      "PackagePath": "staticwebassets\\TestOnline.grfcvwejm5.bundle.scp.css"
+      "Id": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TestOnLine.bundle.scp.css",
+      "PackagePath": "staticwebassets\\TestOnLine.cnrlef8221.bundle.scp.css"
     },
     {
       "Id": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\css\\site.css",
@@ -245,24 +245,120 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TestOnline.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "Id": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.cjs.js",
+      "PackagePath": "staticwebassets\\lib\\vue\\vue.cjs.js"
+    },
+    {
+      "Id": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.cjs.min.js",
+      "PackagePath": "staticwebassets\\lib\\vue\\vue.cjs.min.js"
+    },
+    {
+      "Id": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.cjs.prod.js",
+      "PackagePath": "staticwebassets\\lib\\vue\\vue.cjs.prod.js"
+    },
+    {
+      "Id": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.cjs.prod.min.js",
+      "PackagePath": "staticwebassets\\lib\\vue\\vue.cjs.prod.min.js"
+    },
+    {
+      "Id": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.esm-browser.js",
+      "PackagePath": "staticwebassets\\lib\\vue\\vue.esm-browser.js"
+    },
+    {
+      "Id": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.esm-browser.min.js",
+      "PackagePath": "staticwebassets\\lib\\vue\\vue.esm-browser.min.js"
+    },
+    {
+      "Id": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.esm-browser.prod.js",
+      "PackagePath": "staticwebassets\\lib\\vue\\vue.esm-browser.prod.js"
+    },
+    {
+      "Id": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.esm-browser.prod.min.js",
+      "PackagePath": "staticwebassets\\lib\\vue\\vue.esm-browser.prod.min.js"
+    },
+    {
+      "Id": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.esm-bundler.js",
+      "PackagePath": "staticwebassets\\lib\\vue\\vue.esm-bundler.js"
+    },
+    {
+      "Id": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.esm-bundler.min.js",
+      "PackagePath": "staticwebassets\\lib\\vue\\vue.esm-bundler.min.js"
+    },
+    {
+      "Id": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.global.js",
+      "PackagePath": "staticwebassets\\lib\\vue\\vue.global.js"
+    },
+    {
+      "Id": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\vue\\vue.global.min.js"
+    },
+    {
+      "Id": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.global.prod.js",
+      "PackagePath": "staticwebassets\\lib\\vue\\vue.global.prod.js"
+    },
+    {
+      "Id": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.global.prod.min.js",
+      "PackagePath": "staticwebassets\\lib\\vue\\vue.global.prod.min.js"
+    },
+    {
+      "Id": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.runtime.esm-browser.js",
+      "PackagePath": "staticwebassets\\lib\\vue\\vue.runtime.esm-browser.js"
+    },
+    {
+      "Id": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.runtime.esm-browser.min.js",
+      "PackagePath": "staticwebassets\\lib\\vue\\vue.runtime.esm-browser.min.js"
+    },
+    {
+      "Id": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.runtime.esm-browser.prod.js",
+      "PackagePath": "staticwebassets\\lib\\vue\\vue.runtime.esm-browser.prod.js"
+    },
+    {
+      "Id": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.runtime.esm-browser.prod.min.js",
+      "PackagePath": "staticwebassets\\lib\\vue\\vue.runtime.esm-browser.prod.min.js"
+    },
+    {
+      "Id": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.runtime.esm-bundler.js",
+      "PackagePath": "staticwebassets\\lib\\vue\\vue.runtime.esm-bundler.js"
+    },
+    {
+      "Id": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.runtime.esm-bundler.min.js",
+      "PackagePath": "staticwebassets\\lib\\vue\\vue.runtime.esm-bundler.min.js"
+    },
+    {
+      "Id": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.runtime.global.js",
+      "PackagePath": "staticwebassets\\lib\\vue\\vue.runtime.global.js"
+    },
+    {
+      "Id": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.runtime.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\vue\\vue.runtime.global.min.js"
+    },
+    {
+      "Id": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.runtime.global.prod.js",
+      "PackagePath": "staticwebassets\\lib\\vue\\vue.runtime.global.prod.js"
+    },
+    {
+      "Id": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.runtime.global.prod.min.js",
+      "PackagePath": "staticwebassets\\lib\\vue\\vue.runtime.global.prod.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TestOnLine.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TestOnline.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TestOnLine.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.TestOnline.props",
-      "PackagePath": "build\\TestOnline.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.TestOnLine.props",
+      "PackagePath": "build\\TestOnLine.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.TestOnline.props",
-      "PackagePath": "buildMultiTargeting\\TestOnline.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.TestOnLine.props",
+      "PackagePath": "buildMultiTargeting\\TestOnLine.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.TestOnline.props",
-      "PackagePath": "buildTransitive\\TestOnline.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.TestOnLine.props",
+      "PackagePath": "buildTransitive\\TestOnLine.props"
     }
   ],
   "ElementsToRemove": []

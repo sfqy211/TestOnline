@@ -1,28 +1,28 @@
 {
   "Version": 1,
-  "Hash": "vFbS0qMKfIF/uu/Mpl7HlpDwsgS0kGYAGukEPYekIm8=",
-  "Source": "TestOnline",
-  "BasePath": "_content/TestOnline",
+  "Hash": "hx+hs4I9+3Je96w9CCcWFvSfamoihJ/jSkia8Pl9M/I=",
+  "Source": "TestOnLine",
+  "BasePath": "_content/TestOnLine",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "TestOnline\\wwwroot",
-      "Source": "TestOnline",
+      "Name": "TestOnLine\\wwwroot",
+      "Source": "TestOnLine",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TestOnline.styles.css",
-      "SourceId": "TestOnline",
+      "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TestOnLine.styles.css",
+      "SourceId": "TestOnLine",
       "SourceType": "Computed",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/TestOnline",
-      "RelativePath": "TestOnline#[.{fingerprint}]?.styles.css",
+      "BasePath": "_content/TestOnLine",
+      "RelativePath": "TestOnLine#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Primary",
@@ -31,19 +31,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "grfcvwejm5",
-      "Integrity": "zHkjmA+ZMVshtSShXmo17YOa/UIVRoTQ4EYXkkGNARc=",
+      "Fingerprint": "cnrlef8221",
+      "Integrity": "OOmAyH9QA5sFlTbk8Ka54w0mlgLusIOMcKW3S3GSFwY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TestOnline.styles.css"
+      "OriginalItemSpec": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TestOnLine.styles.css"
     },
     {
-      "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TestOnline.bundle.scp.css",
-      "SourceId": "TestOnline",
+      "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TestOnLine.bundle.scp.css",
+      "SourceId": "TestOnLine",
       "SourceType": "Computed",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/TestOnline",
-      "RelativePath": "TestOnline#[.{fingerprint}]!.bundle.scp.css",
+      "BasePath": "_content/TestOnLine",
+      "RelativePath": "TestOnLine#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Primary",
@@ -52,18 +52,18 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "grfcvwejm5",
-      "Integrity": "zHkjmA+ZMVshtSShXmo17YOa/UIVRoTQ4EYXkkGNARc=",
+      "Fingerprint": "cnrlef8221",
+      "Integrity": "OOmAyH9QA5sFlTbk8Ka54w0mlgLusIOMcKW3S3GSFwY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TestOnline.bundle.scp.css"
+      "OriginalItemSpec": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TestOnLine.bundle.scp.css"
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\css\\site.css",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "css/site#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -73,18 +73,18 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "c2tiyv64ts",
-      "Integrity": "pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=",
+      "Fingerprint": "plvljnkr5c",
+      "Integrity": "w73RJFafRPOf9cm7oq9q5fqe37Z7kSFzGRuoymW+MVo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\favicon.ico",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -102,10 +102,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\js\\site.js",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "js/site#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -123,10 +123,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -144,10 +144,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -165,10 +165,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -186,10 +186,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -207,10 +207,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -228,10 +228,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -249,10 +249,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -270,10 +270,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -291,10 +291,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -312,10 +312,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -333,10 +333,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -354,10 +354,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -375,10 +375,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -396,10 +396,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -417,10 +417,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -438,10 +438,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -459,10 +459,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -480,10 +480,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -501,10 +501,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -522,10 +522,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -543,10 +543,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -564,10 +564,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -585,10 +585,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -606,10 +606,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -627,10 +627,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -648,10 +648,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -669,10 +669,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -690,10 +690,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -711,10 +711,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -732,10 +732,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -753,10 +753,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -774,10 +774,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -795,10 +795,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -816,10 +816,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -837,10 +837,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -858,10 +858,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -879,10 +879,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -900,10 +900,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -921,10 +921,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -942,10 +942,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -963,10 +963,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -984,10 +984,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1005,10 +1005,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1026,10 +1026,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1047,10 +1047,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\bootstrap\\LICENSE",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/bootstrap/LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1068,10 +1068,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/jquery/dist/jquery#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1089,10 +1089,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1110,10 +1110,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1131,10 +1131,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/jquery/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1152,10 +1152,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/jquery-validation/dist/additional-methods#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1173,10 +1173,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1194,10 +1194,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1215,10 +1215,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1236,10 +1236,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/jquery-validation/LICENSE#[.{fingerprint}]?.md",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1257,10 +1257,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1278,10 +1278,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1299,10 +1299,10 @@
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
-      "SourceId": "TestOnline",
+      "SourceId": "TestOnLine",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
-      "BasePath": "_content/TestOnline",
+      "BasePath": "_content/TestOnLine",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1317,54 +1317,513 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.cjs.js",
+      "SourceId": "TestOnLine",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
+      "BasePath": "_content/TestOnLine",
+      "RelativePath": "lib/vue/vue.cjs#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "04t6qpq214",
+      "Integrity": "IKlRWZyFau77EQgoC9iBHnihtXgHUzHZA5b3S+1O15E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\vue\\vue.cjs.js"
+    },
+    {
+      "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.cjs.min.js",
+      "SourceId": "TestOnLine",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
+      "BasePath": "_content/TestOnLine",
+      "RelativePath": "lib/vue/vue.cjs.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "q6zr7jx30c",
+      "Integrity": "HrJCU/0gqPPyrVZw2YrARcxmhsmhpOAfBtmKkA8Hfy4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\vue\\vue.cjs.min.js"
+    },
+    {
+      "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.cjs.prod.js",
+      "SourceId": "TestOnLine",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
+      "BasePath": "_content/TestOnLine",
+      "RelativePath": "lib/vue/vue.cjs.prod#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x4y9ux1qpv",
+      "Integrity": "71jiZM9QL3jB4LBPARnnE4XFD61fpIcIvzaktxDz54I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\vue\\vue.cjs.prod.js"
+    },
+    {
+      "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.cjs.prod.min.js",
+      "SourceId": "TestOnLine",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
+      "BasePath": "_content/TestOnLine",
+      "RelativePath": "lib/vue/vue.cjs.prod.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9saxoe6634",
+      "Integrity": "J1vJp0vU/VLVkLEH9dabMFrpUQhA6IjnBWqZ0QEhCY8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\vue\\vue.cjs.prod.min.js"
+    },
+    {
+      "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.esm-browser.js",
+      "SourceId": "TestOnLine",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
+      "BasePath": "_content/TestOnLine",
+      "RelativePath": "lib/vue/vue.esm-browser#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wvvtxjf5j4",
+      "Integrity": "VJxGGQ21d1OHg1R9IP/50JliM5ad+pDfm6aJj13KlXM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\vue\\vue.esm-browser.js"
+    },
+    {
+      "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.esm-browser.min.js",
+      "SourceId": "TestOnLine",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
+      "BasePath": "_content/TestOnLine",
+      "RelativePath": "lib/vue/vue.esm-browser.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "emu2l3y7pn",
+      "Integrity": "hgjl2fKT021nb2mYJ+75snTB7uPaapg8zaXeM34PkRM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\vue\\vue.esm-browser.min.js"
+    },
+    {
+      "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.esm-browser.prod.js",
+      "SourceId": "TestOnLine",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
+      "BasePath": "_content/TestOnLine",
+      "RelativePath": "lib/vue/vue.esm-browser.prod#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ykrtxtwgcz",
+      "Integrity": "4oWFum4fR6tT5HhMzvnXUiQ39YORs9zn3d3OJTLWlV4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\vue\\vue.esm-browser.prod.js"
+    },
+    {
+      "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.esm-browser.prod.min.js",
+      "SourceId": "TestOnLine",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
+      "BasePath": "_content/TestOnLine",
+      "RelativePath": "lib/vue/vue.esm-browser.prod.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ut3b8yqwtg",
+      "Integrity": "IlibNc2dsBhubz1VrufNayG8iqsKPZPnOqZaKDmeoS4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\vue\\vue.esm-browser.prod.min.js"
+    },
+    {
+      "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.esm-bundler.js",
+      "SourceId": "TestOnLine",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
+      "BasePath": "_content/TestOnLine",
+      "RelativePath": "lib/vue/vue.esm-bundler#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ha1tve0fmh",
+      "Integrity": "Nx2c+GmEe+LmKdwlOQOLlWdrNEVvMtkg34lhLtCnTcc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\vue\\vue.esm-bundler.js"
+    },
+    {
+      "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.esm-bundler.min.js",
+      "SourceId": "TestOnLine",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
+      "BasePath": "_content/TestOnLine",
+      "RelativePath": "lib/vue/vue.esm-bundler.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uq08d6x1sp",
+      "Integrity": "OvXdY1k477XEMrMegQx2Nh8vZowHgR+I6R56eaZQBYQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\vue\\vue.esm-bundler.min.js"
+    },
+    {
+      "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.global.js",
+      "SourceId": "TestOnLine",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
+      "BasePath": "_content/TestOnLine",
+      "RelativePath": "lib/vue/vue.global#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "husn14p9a5",
+      "Integrity": "Nw0E5oMsQLilVXzUCx00vxQTGV+x1C83EG8rUPawe8A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\vue\\vue.global.js"
+    },
+    {
+      "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.global.min.js",
+      "SourceId": "TestOnLine",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
+      "BasePath": "_content/TestOnLine",
+      "RelativePath": "lib/vue/vue.global.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lklgp0dce1",
+      "Integrity": "y6WSnK329JmW6b6Wpx/BjEglIC30WIXTupxmGg+ABpI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\vue\\vue.global.min.js"
+    },
+    {
+      "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.global.prod.js",
+      "SourceId": "TestOnLine",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
+      "BasePath": "_content/TestOnLine",
+      "RelativePath": "lib/vue/vue.global.prod#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "42zjibdh7u",
+      "Integrity": "xFm6fMjbZcmCWJ+l1kx/9HiHfo5bD9dWgyB87GpOieg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\vue\\vue.global.prod.js"
+    },
+    {
+      "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.global.prod.min.js",
+      "SourceId": "TestOnLine",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
+      "BasePath": "_content/TestOnLine",
+      "RelativePath": "lib/vue/vue.global.prod.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yww28l02ed",
+      "Integrity": "Ig/9inD2FhEE778IgCN1Nk2eRXnyVSukEs+AQ38Wkv4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\vue\\vue.global.prod.min.js"
+    },
+    {
+      "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.runtime.esm-browser.js",
+      "SourceId": "TestOnLine",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
+      "BasePath": "_content/TestOnLine",
+      "RelativePath": "lib/vue/vue.runtime.esm-browser#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5tkdpq0a5c",
+      "Integrity": "mYvyBP0BWigNm2dSwd7NvhJj8c3vQEtWTJT78bLQ/0Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\vue\\vue.runtime.esm-browser.js"
+    },
+    {
+      "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.runtime.esm-browser.min.js",
+      "SourceId": "TestOnLine",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
+      "BasePath": "_content/TestOnLine",
+      "RelativePath": "lib/vue/vue.runtime.esm-browser.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hlund4fzzd",
+      "Integrity": "pWdEJmfj/WNrSJBHOuNl2/osyaISpV2x6zag0a0WU0w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\vue\\vue.runtime.esm-browser.min.js"
+    },
+    {
+      "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.runtime.esm-browser.prod.js",
+      "SourceId": "TestOnLine",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
+      "BasePath": "_content/TestOnLine",
+      "RelativePath": "lib/vue/vue.runtime.esm-browser.prod#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qh0pkdsp2s",
+      "Integrity": "vrao8pUzhrFx+yDlxxnpYILzsM8pqI0kFY9huCTjwdQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\vue\\vue.runtime.esm-browser.prod.js"
+    },
+    {
+      "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.runtime.esm-browser.prod.min.js",
+      "SourceId": "TestOnLine",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
+      "BasePath": "_content/TestOnLine",
+      "RelativePath": "lib/vue/vue.runtime.esm-browser.prod.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "f69kjbev08",
+      "Integrity": "dwrHoYzxBfZbqAk6DZQFoyN5ZpAeslV17iAm/sSdMC0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\vue\\vue.runtime.esm-browser.prod.min.js"
+    },
+    {
+      "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.runtime.esm-bundler.js",
+      "SourceId": "TestOnLine",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
+      "BasePath": "_content/TestOnLine",
+      "RelativePath": "lib/vue/vue.runtime.esm-bundler#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9if3rzxftf",
+      "Integrity": "v1flL7y1R8S20hena15S/GUz62SUKZ7zQAcN/sntkys=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\vue\\vue.runtime.esm-bundler.js"
+    },
+    {
+      "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.runtime.esm-bundler.min.js",
+      "SourceId": "TestOnLine",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
+      "BasePath": "_content/TestOnLine",
+      "RelativePath": "lib/vue/vue.runtime.esm-bundler.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "creoitucbb",
+      "Integrity": "uCa5tN1QJ4oJKShkEdnlrymlgJS4UFvhCvtRGJAlKD4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\vue\\vue.runtime.esm-bundler.min.js"
+    },
+    {
+      "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.runtime.global.js",
+      "SourceId": "TestOnLine",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
+      "BasePath": "_content/TestOnLine",
+      "RelativePath": "lib/vue/vue.runtime.global#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9hqzq5butc",
+      "Integrity": "zS7ns+otmZ18xHcBM4f/PqErb230triEXni5US7fqcY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\vue\\vue.runtime.global.js"
+    },
+    {
+      "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.runtime.global.min.js",
+      "SourceId": "TestOnLine",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
+      "BasePath": "_content/TestOnLine",
+      "RelativePath": "lib/vue/vue.runtime.global.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "onopz0hz9m",
+      "Integrity": "FByXuz3Kqx0PCzxQeId/SZILVaLf+IlapIRViAHFJ5M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\vue\\vue.runtime.global.min.js"
+    },
+    {
+      "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.runtime.global.prod.js",
+      "SourceId": "TestOnLine",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
+      "BasePath": "_content/TestOnLine",
+      "RelativePath": "lib/vue/vue.runtime.global.prod#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ph8pwgm91k",
+      "Integrity": "wwgDxGtB2LvQ/wLkp5Cgal49ejn3LfPPOAOJkmBEy9Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\vue\\vue.runtime.global.prod.js"
+    },
+    {
+      "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.runtime.global.prod.min.js",
+      "SourceId": "TestOnLine",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
+      "BasePath": "_content/TestOnLine",
+      "RelativePath": "lib/vue/vue.runtime.global.prod.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tjw1iy4dx3",
+      "Integrity": "CfXq8cCx4ZcZDaY/FdS+zcf4MXpQqfrHQxXgEzjp/OI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\vue\\vue.runtime.global.prod.min.js"
     }
   ],
   "Endpoints": [
-    {
-      "Route": "css/site.c2tiyv64ts.css",
-      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "362"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 29 Dec 2024 10:58:04 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "c2tiyv64ts"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
-        }
-      ]
-    },
     {
       "Route": "css/site.css",
       "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\css\\site.css",
@@ -1376,7 +1835,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "412"
         },
         {
           "Name": "Content-Type",
@@ -1384,11 +1843,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "\"w73RJFafRPOf9cm7oq9q5fqe37Z7kSFzGRuoymW+MVo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 29 Dec 2024 10:58:04 GMT"
+          "Value": "Mon, 30 Dec 2024 08:33:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1398,7 +1857,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-w73RJFafRPOf9cm7oq9q5fqe37Z7kSFzGRuoymW+MVo="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.plvljnkr5c.css",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "412"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w73RJFafRPOf9cm7oq9q5fqe37Z7kSFzGRuoymW+MVo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 08:33:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "plvljnkr5c"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-w73RJFafRPOf9cm7oq9q5fqe37Z7kSFzGRuoymW+MVo="
         }
       ]
     },
@@ -6241,8 +6745,8 @@
       ]
     },
     {
-      "Route": "TestOnline.bundle.scp.css",
-      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TestOnline.bundle.scp.css",
+      "Route": "lib/vue/vue.cjs.04t6qpq214.js",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.cjs.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6251,56 +6755,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1128"
+          "Value": "2296"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/css"
+          "Value": "text/javascript"
         },
         {
           "Name": "ETag",
-          "Value": "\"zHkjmA+ZMVshtSShXmo17YOa/UIVRoTQ4EYXkkGNARc=\""
+          "Value": "\"IKlRWZyFau77EQgoC9iBHnihtXgHUzHZA5b3S+1O15E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 29 Dec 2024 11:00:45 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-zHkjmA+ZMVshtSShXmo17YOa/UIVRoTQ4EYXkkGNARc="
-        }
-      ]
-    },
-    {
-      "Route": "TestOnline.grfcvwejm5.bundle.scp.css",
-      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TestOnline.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1128"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"zHkjmA+ZMVshtSShXmo17YOa/UIVRoTQ4EYXkkGNARc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 29 Dec 2024 11:00:45 GMT"
+          "Value": "Mon, 30 Dec 2024 02:45:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6310,21 +6777,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "grfcvwejm5"
+          "Value": "04t6qpq214"
         },
         {
           "Name": "label",
-          "Value": "TestOnline.bundle.scp.css"
+          "Value": "lib/vue/vue.cjs.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-zHkjmA+ZMVshtSShXmo17YOa/UIVRoTQ4EYXkkGNARc="
+          "Value": "sha256-IKlRWZyFau77EQgoC9iBHnihtXgHUzHZA5b3S+1O15E="
         }
       ]
     },
     {
-      "Route": "TestOnline.grfcvwejm5.styles.css",
-      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TestOnline.styles.css",
+      "Route": "lib/vue/vue.cjs.js",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.cjs.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6333,64 +6800,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1128"
+          "Value": "2296"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/css"
+          "Value": "text/javascript"
         },
         {
           "Name": "ETag",
-          "Value": "\"zHkjmA+ZMVshtSShXmo17YOa/UIVRoTQ4EYXkkGNARc=\""
+          "Value": "\"IKlRWZyFau77EQgoC9iBHnihtXgHUzHZA5b3S+1O15E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 29 Dec 2024 11:00:45 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "grfcvwejm5"
-        },
-        {
-          "Name": "label",
-          "Value": "TestOnline.styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-zHkjmA+ZMVshtSShXmo17YOa/UIVRoTQ4EYXkkGNARc="
-        }
-      ]
-    },
-    {
-      "Route": "TestOnline.styles.css",
-      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TestOnline.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1128"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"zHkjmA+ZMVshtSShXmo17YOa/UIVRoTQ4EYXkkGNARc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 29 Dec 2024 11:00:45 GMT"
+          "Value": "Mon, 30 Dec 2024 02:45:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6400,7 +6822,2057 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-zHkjmA+ZMVshtSShXmo17YOa/UIVRoTQ4EYXkkGNARc="
+          "Value": "sha256-IKlRWZyFau77EQgoC9iBHnihtXgHUzHZA5b3S+1O15E="
+        }
+      ]
+    },
+    {
+      "Route": "lib/vue/vue.cjs.min.js",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.cjs.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1444"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HrJCU/0gqPPyrVZw2YrARcxmhsmhpOAfBtmKkA8Hfy4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 02:45:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HrJCU/0gqPPyrVZw2YrARcxmhsmhpOAfBtmKkA8Hfy4="
+        }
+      ]
+    },
+    {
+      "Route": "lib/vue/vue.cjs.min.q6zr7jx30c.js",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.cjs.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1444"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HrJCU/0gqPPyrVZw2YrARcxmhsmhpOAfBtmKkA8Hfy4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 02:45:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q6zr7jx30c"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/vue/vue.cjs.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HrJCU/0gqPPyrVZw2YrARcxmhsmhpOAfBtmKkA8Hfy4="
+        }
+      ]
+    },
+    {
+      "Route": "lib/vue/vue.cjs.prod.js",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.cjs.prod.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1774"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"71jiZM9QL3jB4LBPARnnE4XFD61fpIcIvzaktxDz54I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 02:45:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-71jiZM9QL3jB4LBPARnnE4XFD61fpIcIvzaktxDz54I="
+        }
+      ]
+    },
+    {
+      "Route": "lib/vue/vue.cjs.prod.min.9saxoe6634.js",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.cjs.prod.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1162"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J1vJp0vU/VLVkLEH9dabMFrpUQhA6IjnBWqZ0QEhCY8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 02:45:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9saxoe6634"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/vue/vue.cjs.prod.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-J1vJp0vU/VLVkLEH9dabMFrpUQhA6IjnBWqZ0QEhCY8="
+        }
+      ]
+    },
+    {
+      "Route": "lib/vue/vue.cjs.prod.min.js",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.cjs.prod.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1162"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J1vJp0vU/VLVkLEH9dabMFrpUQhA6IjnBWqZ0QEhCY8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 02:45:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-J1vJp0vU/VLVkLEH9dabMFrpUQhA6IjnBWqZ0QEhCY8="
+        }
+      ]
+    },
+    {
+      "Route": "lib/vue/vue.cjs.prod.x4y9ux1qpv.js",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.cjs.prod.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1774"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"71jiZM9QL3jB4LBPARnnE4XFD61fpIcIvzaktxDz54I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 02:45:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x4y9ux1qpv"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/vue/vue.cjs.prod.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-71jiZM9QL3jB4LBPARnnE4XFD61fpIcIvzaktxDz54I="
+        }
+      ]
+    },
+    {
+      "Route": "lib/vue/vue.esm-browser.js",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.esm-browser.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "531704"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VJxGGQ21d1OHg1R9IP/50JliM5ad+pDfm6aJj13KlXM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 02:45:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VJxGGQ21d1OHg1R9IP/50JliM5ad+pDfm6aJj13KlXM="
+        }
+      ]
+    },
+    {
+      "Route": "lib/vue/vue.esm-browser.min.emu2l3y7pn.js",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.esm-browser.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "264615"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hgjl2fKT021nb2mYJ+75snTB7uPaapg8zaXeM34PkRM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 02:45:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "emu2l3y7pn"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/vue/vue.esm-browser.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hgjl2fKT021nb2mYJ+75snTB7uPaapg8zaXeM34PkRM="
+        }
+      ]
+    },
+    {
+      "Route": "lib/vue/vue.esm-browser.min.js",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.esm-browser.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "264615"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hgjl2fKT021nb2mYJ+75snTB7uPaapg8zaXeM34PkRM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 02:45:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hgjl2fKT021nb2mYJ+75snTB7uPaapg8zaXeM34PkRM="
+        }
+      ]
+    },
+    {
+      "Route": "lib/vue/vue.esm-browser.prod.js",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.esm-browser.prod.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162653"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4oWFum4fR6tT5HhMzvnXUiQ39YORs9zn3d3OJTLWlV4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 02:45:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4oWFum4fR6tT5HhMzvnXUiQ39YORs9zn3d3OJTLWlV4="
+        }
+      ]
+    },
+    {
+      "Route": "lib/vue/vue.esm-browser.prod.min.js",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.esm-browser.prod.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "160273"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IlibNc2dsBhubz1VrufNayG8iqsKPZPnOqZaKDmeoS4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 02:45:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IlibNc2dsBhubz1VrufNayG8iqsKPZPnOqZaKDmeoS4="
+        }
+      ]
+    },
+    {
+      "Route": "lib/vue/vue.esm-browser.prod.min.ut3b8yqwtg.js",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.esm-browser.prod.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "160273"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IlibNc2dsBhubz1VrufNayG8iqsKPZPnOqZaKDmeoS4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 02:45:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ut3b8yqwtg"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/vue/vue.esm-browser.prod.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IlibNc2dsBhubz1VrufNayG8iqsKPZPnOqZaKDmeoS4="
+        }
+      ]
+    },
+    {
+      "Route": "lib/vue/vue.esm-browser.prod.ykrtxtwgcz.js",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.esm-browser.prod.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162653"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4oWFum4fR6tT5HhMzvnXUiQ39YORs9zn3d3OJTLWlV4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 02:45:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ykrtxtwgcz"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/vue/vue.esm-browser.prod.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4oWFum4fR6tT5HhMzvnXUiQ39YORs9zn3d3OJTLWlV4="
+        }
+      ]
+    },
+    {
+      "Route": "lib/vue/vue.esm-browser.wvvtxjf5j4.js",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.esm-browser.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "531704"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VJxGGQ21d1OHg1R9IP/50JliM5ad+pDfm6aJj13KlXM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 02:45:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wvvtxjf5j4"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/vue/vue.esm-browser.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VJxGGQ21d1OHg1R9IP/50JliM5ad+pDfm6aJj13KlXM="
+        }
+      ]
+    },
+    {
+      "Route": "lib/vue/vue.esm-bundler.ha1tve0fmh.js",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.esm-bundler.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2188"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Nx2c+GmEe+LmKdwlOQOLlWdrNEVvMtkg34lhLtCnTcc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 02:45:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ha1tve0fmh"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/vue/vue.esm-bundler.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Nx2c+GmEe+LmKdwlOQOLlWdrNEVvMtkg34lhLtCnTcc="
+        }
+      ]
+    },
+    {
+      "Route": "lib/vue/vue.esm-bundler.js",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.esm-bundler.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2188"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Nx2c+GmEe+LmKdwlOQOLlWdrNEVvMtkg34lhLtCnTcc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 02:45:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Nx2c+GmEe+LmKdwlOQOLlWdrNEVvMtkg34lhLtCnTcc="
+        }
+      ]
+    },
+    {
+      "Route": "lib/vue/vue.esm-bundler.min.js",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.esm-bundler.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1347"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OvXdY1k477XEMrMegQx2Nh8vZowHgR+I6R56eaZQBYQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 02:45:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OvXdY1k477XEMrMegQx2Nh8vZowHgR+I6R56eaZQBYQ="
+        }
+      ]
+    },
+    {
+      "Route": "lib/vue/vue.esm-bundler.min.uq08d6x1sp.js",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.esm-bundler.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1347"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OvXdY1k477XEMrMegQx2Nh8vZowHgR+I6R56eaZQBYQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 02:45:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uq08d6x1sp"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/vue/vue.esm-bundler.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OvXdY1k477XEMrMegQx2Nh8vZowHgR+I6R56eaZQBYQ="
+        }
+      ]
+    },
+    {
+      "Route": "lib/vue/vue.global.husn14p9a5.js",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.global.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "562700"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Nw0E5oMsQLilVXzUCx00vxQTGV+x1C83EG8rUPawe8A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 02:45:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "husn14p9a5"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/vue/vue.global.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Nw0E5oMsQLilVXzUCx00vxQTGV+x1C83EG8rUPawe8A="
+        }
+      ]
+    },
+    {
+      "Route": "lib/vue/vue.global.js",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.global.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "562700"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Nw0E5oMsQLilVXzUCx00vxQTGV+x1C83EG8rUPawe8A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 02:45:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Nw0E5oMsQLilVXzUCx00vxQTGV+x1C83EG8rUPawe8A="
+        }
+      ]
+    },
+    {
+      "Route": "lib/vue/vue.global.min.js",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.global.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "207775"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y6WSnK329JmW6b6Wpx/BjEglIC30WIXTupxmGg+ABpI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 02:45:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-y6WSnK329JmW6b6Wpx/BjEglIC30WIXTupxmGg+ABpI="
+        }
+      ]
+    },
+    {
+      "Route": "lib/vue/vue.global.min.lklgp0dce1.js",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.global.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "207775"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y6WSnK329JmW6b6Wpx/BjEglIC30WIXTupxmGg+ABpI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 02:45:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lklgp0dce1"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/vue/vue.global.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-y6WSnK329JmW6b6Wpx/BjEglIC30WIXTupxmGg+ABpI="
+        }
+      ]
+    },
+    {
+      "Route": "lib/vue/vue.global.prod.42zjibdh7u.js",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.global.prod.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "157924"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xFm6fMjbZcmCWJ+l1kx/9HiHfo5bD9dWgyB87GpOieg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 02:45:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "42zjibdh7u"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/vue/vue.global.prod.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xFm6fMjbZcmCWJ+l1kx/9HiHfo5bD9dWgyB87GpOieg="
+        }
+      ]
+    },
+    {
+      "Route": "lib/vue/vue.global.prod.js",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.global.prod.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "157924"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xFm6fMjbZcmCWJ+l1kx/9HiHfo5bD9dWgyB87GpOieg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 02:45:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xFm6fMjbZcmCWJ+l1kx/9HiHfo5bD9dWgyB87GpOieg="
+        }
+      ]
+    },
+    {
+      "Route": "lib/vue/vue.global.prod.min.js",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.global.prod.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "154807"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ig/9inD2FhEE778IgCN1Nk2eRXnyVSukEs+AQ38Wkv4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 02:45:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ig/9inD2FhEE778IgCN1Nk2eRXnyVSukEs+AQ38Wkv4="
+        }
+      ]
+    },
+    {
+      "Route": "lib/vue/vue.global.prod.min.yww28l02ed.js",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.global.prod.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "154807"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ig/9inD2FhEE778IgCN1Nk2eRXnyVSukEs+AQ38Wkv4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 02:45:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yww28l02ed"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/vue/vue.global.prod.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ig/9inD2FhEE778IgCN1Nk2eRXnyVSukEs+AQ38Wkv4="
+        }
+      ]
+    },
+    {
+      "Route": "lib/vue/vue.runtime.esm-browser.5tkdpq0a5c.js",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.runtime.esm-browser.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "364890"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mYvyBP0BWigNm2dSwd7NvhJj8c3vQEtWTJT78bLQ/0Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 02:45:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5tkdpq0a5c"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/vue/vue.runtime.esm-browser.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mYvyBP0BWigNm2dSwd7NvhJj8c3vQEtWTJT78bLQ/0Q="
+        }
+      ]
+    },
+    {
+      "Route": "lib/vue/vue.runtime.esm-browser.js",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.runtime.esm-browser.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "364890"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mYvyBP0BWigNm2dSwd7NvhJj8c3vQEtWTJT78bLQ/0Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 02:45:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mYvyBP0BWigNm2dSwd7NvhJj8c3vQEtWTJT78bLQ/0Q="
+        }
+      ]
+    },
+    {
+      "Route": "lib/vue/vue.runtime.esm-browser.min.hlund4fzzd.js",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.runtime.esm-browser.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "175637"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pWdEJmfj/WNrSJBHOuNl2/osyaISpV2x6zag0a0WU0w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 02:45:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hlund4fzzd"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/vue/vue.runtime.esm-browser.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pWdEJmfj/WNrSJBHOuNl2/osyaISpV2x6zag0a0WU0w="
+        }
+      ]
+    },
+    {
+      "Route": "lib/vue/vue.runtime.esm-browser.min.js",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.runtime.esm-browser.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "175637"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pWdEJmfj/WNrSJBHOuNl2/osyaISpV2x6zag0a0WU0w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 02:45:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pWdEJmfj/WNrSJBHOuNl2/osyaISpV2x6zag0a0WU0w="
+        }
+      ]
+    },
+    {
+      "Route": "lib/vue/vue.runtime.esm-browser.prod.js",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.runtime.esm-browser.prod.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "102019"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vrao8pUzhrFx+yDlxxnpYILzsM8pqI0kFY9huCTjwdQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 02:45:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vrao8pUzhrFx+yDlxxnpYILzsM8pqI0kFY9huCTjwdQ="
+        }
+      ]
+    },
+    {
+      "Route": "lib/vue/vue.runtime.esm-browser.prod.min.f69kjbev08.js",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.runtime.esm-browser.prod.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "100664"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dwrHoYzxBfZbqAk6DZQFoyN5ZpAeslV17iAm/sSdMC0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 02:45:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f69kjbev08"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/vue/vue.runtime.esm-browser.prod.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dwrHoYzxBfZbqAk6DZQFoyN5ZpAeslV17iAm/sSdMC0="
+        }
+      ]
+    },
+    {
+      "Route": "lib/vue/vue.runtime.esm-browser.prod.min.js",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.runtime.esm-browser.prod.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "100664"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dwrHoYzxBfZbqAk6DZQFoyN5ZpAeslV17iAm/sSdMC0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 02:45:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dwrHoYzxBfZbqAk6DZQFoyN5ZpAeslV17iAm/sSdMC0="
+        }
+      ]
+    },
+    {
+      "Route": "lib/vue/vue.runtime.esm-browser.prod.qh0pkdsp2s.js",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.runtime.esm-browser.prod.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "102019"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vrao8pUzhrFx+yDlxxnpYILzsM8pqI0kFY9huCTjwdQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 02:45:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qh0pkdsp2s"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/vue/vue.runtime.esm-browser.prod.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vrao8pUzhrFx+yDlxxnpYILzsM8pqI0kFY9huCTjwdQ="
+        }
+      ]
+    },
+    {
+      "Route": "lib/vue/vue.runtime.esm-bundler.9if3rzxftf.js",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.runtime.esm-bundler.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "580"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v1flL7y1R8S20hena15S/GUz62SUKZ7zQAcN/sntkys=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 02:45:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9if3rzxftf"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/vue/vue.runtime.esm-bundler.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-v1flL7y1R8S20hena15S/GUz62SUKZ7zQAcN/sntkys="
+        }
+      ]
+    },
+    {
+      "Route": "lib/vue/vue.runtime.esm-bundler.js",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.runtime.esm-bundler.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "580"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v1flL7y1R8S20hena15S/GUz62SUKZ7zQAcN/sntkys=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 02:45:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-v1flL7y1R8S20hena15S/GUz62SUKZ7zQAcN/sntkys="
+        }
+      ]
+    },
+    {
+      "Route": "lib/vue/vue.runtime.esm-bundler.min.creoitucbb.js",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.runtime.esm-bundler.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "385"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uCa5tN1QJ4oJKShkEdnlrymlgJS4UFvhCvtRGJAlKD4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 02:45:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "creoitucbb"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/vue/vue.runtime.esm-bundler.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uCa5tN1QJ4oJKShkEdnlrymlgJS4UFvhCvtRGJAlKD4="
+        }
+      ]
+    },
+    {
+      "Route": "lib/vue/vue.runtime.esm-bundler.min.js",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.runtime.esm-bundler.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "385"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uCa5tN1QJ4oJKShkEdnlrymlgJS4UFvhCvtRGJAlKD4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 02:45:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uCa5tN1QJ4oJKShkEdnlrymlgJS4UFvhCvtRGJAlKD4="
+        }
+      ]
+    },
+    {
+      "Route": "lib/vue/vue.runtime.global.9hqzq5butc.js",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.runtime.global.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "389808"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zS7ns+otmZ18xHcBM4f/PqErb230triEXni5US7fqcY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 02:45:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9hqzq5butc"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/vue/vue.runtime.global.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zS7ns+otmZ18xHcBM4f/PqErb230triEXni5US7fqcY="
+        }
+      ]
+    },
+    {
+      "Route": "lib/vue/vue.runtime.global.js",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.runtime.global.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "389808"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zS7ns+otmZ18xHcBM4f/PqErb230triEXni5US7fqcY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 02:45:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zS7ns+otmZ18xHcBM4f/PqErb230triEXni5US7fqcY="
+        }
+      ]
+    },
+    {
+      "Route": "lib/vue/vue.runtime.global.min.js",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.runtime.global.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "140032"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FByXuz3Kqx0PCzxQeId/SZILVaLf+IlapIRViAHFJ5M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 02:45:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FByXuz3Kqx0PCzxQeId/SZILVaLf+IlapIRViAHFJ5M="
+        }
+      ]
+    },
+    {
+      "Route": "lib/vue/vue.runtime.global.min.onopz0hz9m.js",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.runtime.global.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "140032"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FByXuz3Kqx0PCzxQeId/SZILVaLf+IlapIRViAHFJ5M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 02:45:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "onopz0hz9m"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/vue/vue.runtime.global.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FByXuz3Kqx0PCzxQeId/SZILVaLf+IlapIRViAHFJ5M="
+        }
+      ]
+    },
+    {
+      "Route": "lib/vue/vue.runtime.global.prod.js",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.runtime.global.prod.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "100041"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wwgDxGtB2LvQ/wLkp5Cgal49ejn3LfPPOAOJkmBEy9Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 02:45:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wwgDxGtB2LvQ/wLkp5Cgal49ejn3LfPPOAOJkmBEy9Q="
+        }
+      ]
+    },
+    {
+      "Route": "lib/vue/vue.runtime.global.prod.min.js",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.runtime.global.prod.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "98156"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CfXq8cCx4ZcZDaY/FdS+zcf4MXpQqfrHQxXgEzjp/OI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 02:45:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CfXq8cCx4ZcZDaY/FdS+zcf4MXpQqfrHQxXgEzjp/OI="
+        }
+      ]
+    },
+    {
+      "Route": "lib/vue/vue.runtime.global.prod.min.tjw1iy4dx3.js",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.runtime.global.prod.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "98156"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CfXq8cCx4ZcZDaY/FdS+zcf4MXpQqfrHQxXgEzjp/OI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 02:45:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tjw1iy4dx3"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/vue/vue.runtime.global.prod.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CfXq8cCx4ZcZDaY/FdS+zcf4MXpQqfrHQxXgEzjp/OI="
+        }
+      ]
+    },
+    {
+      "Route": "lib/vue/vue.runtime.global.prod.ph8pwgm91k.js",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\lib\\vue\\vue.runtime.global.prod.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "100041"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wwgDxGtB2LvQ/wLkp5Cgal49ejn3LfPPOAOJkmBEy9Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 02:45:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ph8pwgm91k"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/vue/vue.runtime.global.prod.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wwgDxGtB2LvQ/wLkp5Cgal49ejn3LfPPOAOJkmBEy9Q="
+        }
+      ]
+    },
+    {
+      "Route": "TestOnLine.bundle.scp.css",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TestOnLine.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1361"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OOmAyH9QA5sFlTbk8Ka54w0mlgLusIOMcKW3S3GSFwY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 08:11:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OOmAyH9QA5sFlTbk8Ka54w0mlgLusIOMcKW3S3GSFwY="
+        }
+      ]
+    },
+    {
+      "Route": "TestOnLine.cnrlef8221.bundle.scp.css",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TestOnLine.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1361"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OOmAyH9QA5sFlTbk8Ka54w0mlgLusIOMcKW3S3GSFwY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 08:11:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cnrlef8221"
+        },
+        {
+          "Name": "label",
+          "Value": "TestOnLine.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OOmAyH9QA5sFlTbk8Ka54w0mlgLusIOMcKW3S3GSFwY="
+        }
+      ]
+    },
+    {
+      "Route": "TestOnLine.cnrlef8221.styles.css",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TestOnLine.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1361"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OOmAyH9QA5sFlTbk8Ka54w0mlgLusIOMcKW3S3GSFwY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 08:11:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cnrlef8221"
+        },
+        {
+          "Name": "label",
+          "Value": "TestOnLine.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OOmAyH9QA5sFlTbk8Ka54w0mlgLusIOMcKW3S3GSFwY="
+        }
+      ]
+    },
+    {
+      "Route": "TestOnLine.styles.css",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TestOnLine.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1361"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OOmAyH9QA5sFlTbk8Ka54w0mlgLusIOMcKW3S3GSFwY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 08:11:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OOmAyH9QA5sFlTbk8Ka54w0mlgLusIOMcKW3S3GSFwY="
         }
       ]
     }

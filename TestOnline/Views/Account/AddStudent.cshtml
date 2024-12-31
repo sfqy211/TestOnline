@@ -1,0 +1,28 @@
+﻿@model Student
+@{
+    ViewData["Title"] = "添加学生信息";
+}
+
+<h2>添加学生信息</h2>
+
+<form asp-action="Save" method="post">
+    <div style="margin:10px;">
+        <span>学号：</span>
+        <input type="text" name="StudentId" />
+    </div>
+    <div style="margin:10px;">
+        <span>班级：</span>
+        <input type="text" name="ClassId" />
+    </div>
+    <div style="margin:10px;">
+        <span>姓名：</span>
+        <input type="text" name="Name" />
+    </div>
+    <div style="margin:10px;">
+        <span>密码：</span>
+        <input type="password" name="Password" />
+    </div>
+    <div style="margin:10px;">
+        <input type="submit" name="submit" value="保存" />
+    </div>
+</form>

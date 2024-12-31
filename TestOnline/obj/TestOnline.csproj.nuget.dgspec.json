@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\TestOnline.csproj": {}
+    "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\TestOnLine.csproj": {}
   },
   "projects": {
-    "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\TestOnline.csproj": {
+    "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\TestOnLine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\TestOnline.csproj",
-        "projectName": "TestOnline",
-        "projectPath": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\TestOnline.csproj",
+        "projectUniqueName": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\TestOnLine.csproj",
+        "projectName": "TestOnLine",
+        "projectPath": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\TestOnLine.csproj",
         "packagesPath": "C:\\Users\\s'f'q'y\\.nuget\\packages\\",
         "outputPath": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\obj\\",
         "projectStyle": "PackageReference",
@@ -49,6 +49,20 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "SqlSugarCore": {
+              "target": "Package",
+              "version": "[5.1.4.172, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

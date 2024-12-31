@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestOnline", "TestOnline\TestOnline.csproj", "{B21AE84A-D705-4724-8B71-F8BC5C6F55B8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestOnLine", "TestOnline\TestOnLine.csproj", "{B21AE84A-D705-4724-8B71-F8BC5C6F55B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
