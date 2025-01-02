@@ -1,6 +1,22 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@{
+    ViewData["Title"] = "管理员仪表盘";
 }
-<h1>管理员登录成功</h1>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-2 bg-light sidebar">
+            <div class="admin-info p-3">
+                <p>管理员页面</p>
+            </div>
+            <nav class="nav flex-column">
+                <button class="nav-link btn btn-link" onclick="loadContent(event, 'StudentManagement')">学生管理</button>
+                <button class="nav-link btn btn-link" onclick="loadContent(event, 'TeacherManagement')">教师管理</button>
+                <button class="nav-link btn btn-link" onclick="loadContent(event, 'CourseManagement')">课程管理</button>
+            </nav>
+        </div>
+        <div class="col-md-9" id="content">
+            <h3>欢迎, 管理员!</h3>
+            <p>请选择左侧菜单中的一个选项来管理班级、学生、教师或课程。</p>
+        </div>
+    </div>
+</div>

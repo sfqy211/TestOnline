@@ -1,0 +1,31 @@
+﻿@using TestOnLine.Models.Management
+@using TestOnLine.Models.Data
+@model List<Teacher>
+
+@if (Model != null && Model.Any())
+{
+    <h4>搜索结果</h4>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>教师编号</th>
+                <th>姓名</th>
+                <th>所属院系</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var teacher in Model)
+            {
+                <tr>
+                    <td>@teacher.TeacherId</td>
+                    <td>@teacher.Name</td>
+                    <td>@teacher.FacultyId</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>没有找到相关教师。</p>
+}

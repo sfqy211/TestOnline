@@ -11,5 +11,8 @@ namespace TestOnLine.Models.Data
         public string? Name { get; set; }
 
         public string? Password { get; set; }
+
+        [SugarColumn(IsIgnore = true)]
+        public string? Department { get; set; }
     }
 }

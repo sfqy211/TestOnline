@@ -26,7 +26,6 @@ D:\AHEU\3rd_year\codelearn\aspnet\TestOnline\TestOnline\obj\Debug\net8.0\staticw
 D:\AHEU\3rd_year\codelearn\aspnet\TestOnline\TestOnline\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.TestOnline.props
 D:\AHEU\3rd_year\codelearn\aspnet\TestOnline\TestOnline\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.TestOnline.props
 D:\AHEU\3rd_year\codelearn\aspnet\TestOnline\TestOnline\obj\Debug\net8.0\staticwebassets.pack.json
-D:\AHEU\3rd_year\codelearn\aspnet\TestOnline\TestOnline\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\AHEU\3rd_year\codelearn\aspnet\TestOnline\TestOnline\obj\Debug\net8.0\TestOnline.dll
 D:\AHEU\3rd_year\codelearn\aspnet\TestOnline\TestOnline\obj\Debug\net8.0\refint\TestOnline.dll
 D:\AHEU\3rd_year\codelearn\aspnet\TestOnline\TestOnline\obj\Debug\net8.0\TestOnline.pdb
@@ -304,3 +303,4 @@ D:\AHEU\3rd_year\codelearn\aspnet\TestOnline\TestOnline\bin\Debug\net8.0\runtime
 D:\AHEU\3rd_year\codelearn\aspnet\TestOnline\TestOnline\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 D:\AHEU\3rd_year\codelearn\aspnet\TestOnline\TestOnline\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
 D:\AHEU\3rd_year\codelearn\aspnet\TestOnline\TestOnline\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\AHEU\3rd_year\codelearn\aspnet\TestOnline\TestOnline\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

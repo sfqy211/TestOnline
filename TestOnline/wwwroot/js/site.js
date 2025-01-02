@@ -1,4 +1,44 @@
-﻿// Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿function loadContent(event, viewName) {
+    fetch('/Admin/LoadView?viewName=' + viewName)
+        .then(response => response.text())
+        .then(html => {
+            document.getElementById('content').innerHTML = html;
+        });
+}
 
-// Write your JavaScript code.
+function searchCourses() {
+    var courseName = document.getElementById('courseSearchInput').value;
+    fetch('/Admin/SearchCourses?courseName=' + encodeURIComponent(courseName))
+        .then(response => response.text())
+        .then(html => {
+            document.getElementById('searchResultsCourse').innerHTML = html;
+        })
+        .catch(error => {
+            console.error('course search error:', error);
+        });
+}
+
+
+function searchStudents() {
+    var studentName = document.getElementById('studentSearchInput').value;
+    fetch('/Admin/SearchStudents?studentName=' + encodeURIComponent(studentName))
+        .then(response => response.text())
+        .then(html => {
+            document.getElementById('searchResultsStudent').innerHTML = html;
+        })
+        .catch(error => {
+            console.error('student search error:', error);
+        });
+}
+
+function searchTeachers() {
+    var teacherName = document.getElementById('teacherSearchInput').value;
+    fetch('/Admin/SearchTeachers?teacherName=' + encodeURIComponent(teacherName))
+        .then(response => response.text())
+        .then(html => {
+            document.getElementById('searchResultsTeacher').innerHTML = html;
+        })
+        .catch(error => {
+            console.error('teacher search error:', error);
+        });
+}

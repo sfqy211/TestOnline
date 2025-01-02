@@ -11,10 +11,10 @@ namespace TestOnLine.Models.Data
 
         public bool IsExam { get; set; }
 
+        public bool IsCompleted { get; set; }
+
         public required string Name { get; set; }
 
         public float Credit { get; set; }
-
-        public float Score { get; set; }
     }
 }

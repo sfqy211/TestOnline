@@ -1,0 +1,34 @@
+﻿@using TestOnLine.Models.Management
+@using TestOnLine.Models.Data
+@using SqlSugar
+@model List<Student>
+
+@if (Model != null && Model.Any())
+{
+    <h4>搜索结果</h4>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>学生编号</th>
+                <th>姓名</th>
+                <th>班级编号</th>
+                <th>所属院系</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var student in Model)
+            {
+                <tr>
+                    <td>@student.StudentId</td>
+                    <td>@student.Name</td>
+                    <td>@student.ClassId</td>
+                    <td>@student.Department</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>没有找到相关学生。</p>
+}

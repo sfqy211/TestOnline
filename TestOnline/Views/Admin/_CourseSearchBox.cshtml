@@ -1,0 +1,8 @@
+﻿@using TestOnLine.Models.Management
+@using TestOnLine.Models.Data
+@model List<Course>
+
+<div class="search-bar">
+    <input type="text" id="courseSearchInput" placeholder="输入要查询的课程名称" class="form-control" />
+    <button class="btn btn-primary mt-2" onclick="searchCourses()">搜索</button>
+</div>

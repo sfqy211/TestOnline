@@ -51,7 +51,7 @@ namespace TestOnLine.Controllers.Student
                         .Where(ccr => ccr.CourseId == c.CourseId && SqlFunc.Subqueryable<Models.Data.Student>()
                             .Where(s => s.StudentId == studentId && s.ClassId == ccr.ClassId)
                             .Any())
-                        .Any() && c.IsExam == false)
+                        .Any() && c.IsCompleted == false)
                     .ToListAsync(),
 
                 CompletedCourses = await _db.Queryable<Course>()
@@ -59,7 +59,7 @@ namespace TestOnLine.Controllers.Student
                         .Where(ccr => ccr.CourseId == c.CourseId && SqlFunc.Subqueryable<Models.Data.Student>()
                             .Where(s => s.StudentId == studentId && s.ClassId == ccr.ClassId)
                             .Any())
-                        .Any() && c.IsExam == true)
+                        .Any() && c.IsCompleted == true)
                     .ToListAsync()
             };
 

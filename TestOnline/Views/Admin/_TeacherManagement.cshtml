@@ -1,0 +1,13 @@
+﻿@using TestOnLine.Models.Management
+@using TestOnLine.Models.Data
+@model List<Teacher>
+
+<h3>教师管理</h3>
+
+<!-- 引入搜索框部分视图 -->
+@await Html.PartialAsync("_TeacherSearchBox")
+
+<!-- 搜索结果区域 -->
+<div id="searchResultsTeacher" class="mt-4">
+    <p>请使用上面的搜索框查询教师相关信息。</p>
+</div>

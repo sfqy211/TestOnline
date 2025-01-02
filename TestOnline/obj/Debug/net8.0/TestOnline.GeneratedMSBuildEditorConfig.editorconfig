@@ -40,6 +40,42 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5EYXNoYm9hcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/AHEU/3rd_year/codelearn/aspnet/TestOnline/TestOnline/Views/Admin/_CourseManagement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cX0NvdXJzZU1hbmFnZW1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AHEU/3rd_year/codelearn/aspnet/TestOnline/TestOnline/Views/Admin/_CourseSearchBox.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cX0NvdXJzZVNlYXJjaEJveC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AHEU/3rd_year/codelearn/aspnet/TestOnline/TestOnline/Views/Admin/_CourseSearchResults.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cX0NvdXJzZVNlYXJjaFJlc3VsdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AHEU/3rd_year/codelearn/aspnet/TestOnline/TestOnline/Views/Admin/_StudentManagement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cX1N0dWRlbnRNYW5hZ2VtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AHEU/3rd_year/codelearn/aspnet/TestOnline/TestOnline/Views/Admin/_StudentSearchBox.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cX1N0dWRlbnRTZWFyY2hCb3guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AHEU/3rd_year/codelearn/aspnet/TestOnline/TestOnline/Views/Admin/_StudentSearchResults.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cX1N0dWRlbnRTZWFyY2hSZXN1bHRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AHEU/3rd_year/codelearn/aspnet/TestOnline/TestOnline/Views/Admin/_TeacherManagement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cX1RlYWNoZXJNYW5hZ2VtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AHEU/3rd_year/codelearn/aspnet/TestOnline/TestOnline/Views/Admin/_TeacherSearchBox.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cX1RlYWNoZXJTZWFyY2hCb3guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AHEU/3rd_year/codelearn/aspnet/TestOnline/TestOnline/Views/Admin/_TeacherSearchResults.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cX1RlYWNoZXJTZWFyY2hSZXN1bHRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/AHEU/3rd_year/codelearn/aspnet/TestOnline/TestOnline/Views/Login/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -56,6 +92,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxTdHVkZW50RGFzaGJvYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/AHEU/3rd_year/codelearn/aspnet/TestOnline/TestOnline/Views/Student/StudentExam.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxTdHVkZW50RXhhbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/AHEU/3rd_year/codelearn/aspnet/TestOnline/TestOnline/Views/Student/_CourseManagement.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxfQ291cnNlTWFuYWdlbWVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -70,6 +110,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/AHEU/3rd_year/codelearn/aspnet/TestOnline/TestOnline/Views/Teacher/TeacherDashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxUZWFjaGVyRGFzaGJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AHEU/3rd_year/codelearn/aspnet/TestOnline/TestOnline/Views/Teacher/TeacherSetQuestions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxUZWFjaGVyU2V0UXVlc3Rpb25zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/AHEU/3rd_year/codelearn/aspnet/TestOnline/TestOnline/Views/Teacher/_CourseManagement.cshtml]
