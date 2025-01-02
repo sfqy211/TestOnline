@@ -59,26 +59,17 @@ namespace TestOnLine.Controllers.Admin
 
             if (students.Any())
             {
-                var classIds = students.Select(s => s.ClassId).Distinct().ToList();
-                var classes = await _db.Queryable<Models.Data.Class>()
-                    .In(c => c.ClassId, classIds)
-                    .ToListAsync();
-
-                var facultyIds = classes.Select(c => c.FacultyId).Distinct().ToList();
+                var facultyIds = students.Select(s => s.FacultyId).Distinct().ToList();
                 var faculties = await _db.Queryable<Models.Data.Faculty>()
                     .In(f => f.FacultyId, facultyIds)
                     .ToListAsync();
 
                 foreach (var student in students)
                 {
-                    var studentClass = classes.FirstOrDefault(c => c.ClassId == student.ClassId);
-                    if (studentClass != null)
+                    var faculty = faculties.FirstOrDefault(f => f.FacultyId == student.FacultyId);
+                    if (faculty != null)
                     {
-                        var faculty = faculties.FirstOrDefault(f => f.FacultyId == studentClass.FacultyId);
-                        if (faculty != null)
-                        {
-                            student.Department = faculty.Name;
-                        }
+                        student.Department = faculty.Name;
                     }
                 }
             }

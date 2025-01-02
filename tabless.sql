@@ -41,6 +41,7 @@ CREATE TABLE Course (
     IsExam BIT NOT NULL DEFAULT 0,
     Name NVARCHAR(255) NOT NULL UNIQUE,
     Credit FLOAT NOT NULL,
+    IsCompleted BIT NOT NULL DEFAULT 0,
     PRIMARY KEY(CourseId),
     FOREIGN KEY (FacultyId) REFERENCES Faculty(FacultyId)
     ON UPDATE NO ACTION ON DELETE NO ACTION
@@ -51,8 +52,6 @@ CREATE TABLE Exam (
     CourseId INT NOT NULL,
     Name NVARCHAR(255) NOT NULL,
     Data NVARCHAR(MAX) NOT NULL,
-    RightAnswer NVARCHAR(MAX),
-    StudentAnswer NVARCHAR(MAX),
     Description NVARCHAR(255),
     StartTime DATETIME,
     EndTime DATETIME,
