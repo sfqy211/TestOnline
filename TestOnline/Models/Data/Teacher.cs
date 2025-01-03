@@ -5,12 +5,12 @@ namespace TestOnLine.Models.Data
     public class Teacher
     {
         [SugarColumn(IsPrimaryKey = true)]
-        public int TeacherId { get; set; }
+        public string TeacherId { get; set; }
 
-        public int FacultyId { get; set; }
+        public string FacultyId { get; set; }
 
-        public required string Name { get; set; }
+        public string Name { get; set; }
 
-        public required string Password { get; set; }
+        public string Password { get; set; }
     }
 }

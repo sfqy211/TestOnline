@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "h5Ji66PT9WhSH7U14X0n3C3IcsI0WnFIka1NqCN06nw=",
+  "Hash": "B243pacpaZEzi2ybOFjazLr51sEW1EQ751CYS7BS66Q=",
   "Source": "TestOnLine",
   "BasePath": "_content/TestOnLine",
   "Mode": "Default",
@@ -99,6 +99,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\js\\exam.js",
+      "SourceId": "TestOnLine",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\",
+      "BasePath": "_content/TestOnLine",
+      "RelativePath": "js/exam#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tkp7hvw736",
+      "Integrity": "wzUcjCS82MqKZmP3suGtAIw5AFbrDpNt0/da2xSd7+c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\exam.js"
     },
     {
       "Identity": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\js\\site.js",
@@ -1481,6 +1502,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "js/exam.js",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\js\\exam.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2232"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wzUcjCS82MqKZmP3suGtAIw5AFbrDpNt0/da2xSd7+c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Jan 2025 05:44:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wzUcjCS82MqKZmP3suGtAIw5AFbrDpNt0/da2xSd7+c="
+        }
+      ]
+    },
+    {
+      "Route": "js/exam.tkp7hvw736.js",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\js\\exam.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2232"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wzUcjCS82MqKZmP3suGtAIw5AFbrDpNt0/da2xSd7+c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Jan 2025 05:44:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tkp7hvw736"
+        },
+        {
+          "Name": "label",
+          "Value": "js/exam.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wzUcjCS82MqKZmP3suGtAIw5AFbrDpNt0/da2xSd7+c="
         }
       ]
     },
@@ -6263,7 +6366,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 10:17:04 GMT"
+          "Value": "Fri, 03 Jan 2025 05:31:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6300,7 +6403,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 10:17:04 GMT"
+          "Value": "Fri, 03 Jan 2025 05:31:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6345,7 +6448,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 10:17:04 GMT"
+          "Value": "Fri, 03 Jan 2025 05:31:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6390,7 +6493,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 10:17:04 GMT"
+          "Value": "Fri, 03 Jan 2025 05:31:51 GMT"
         },
         {
           "Name": "Cache-Control",

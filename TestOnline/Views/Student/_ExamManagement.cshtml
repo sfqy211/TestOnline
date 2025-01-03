@@ -1,5 +1,5 @@
-﻿@using TestOnLine.Models.Management
-@model ExamManagementModel
+﻿@using TestOnLine.Models.Data
+@model Exam
 @{
     ViewData["Title"] = "考试管理";
     var studentId = ViewBag.StudentId;
@@ -13,8 +13,8 @@
     {
             <li>
                 <strong>科目:</strong> @exam.CourseName <br />
-                <strong>考试名称:</strong> <a href="/Exam/Start/@exam.ExamId?studentId=@studentId">@exam.ExamName</a> <br />
-                <strong>截止时间:</strong> @exam.EndTime.ToString("yyyy-MM-dd HH:mm:ss")
+                <strong>考试名称:</strong> @exam.ExamName <br />
+                <a href="/Exam/TakeExam?examId=@exam.ExamId&studentId=@studentId&courseId=@exam.CourseId" class="btn btn-primary">开始考试</a>
             </li>
     }
 </ul>

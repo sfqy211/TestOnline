@@ -29,7 +29,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 10:17:04 GMT"
+          "Value": "Fri, 03 Jan 2025 05:31:51 GMT"
         }
       ],
       "EndpointProperties": [
@@ -74,7 +74,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 10:17:04 GMT"
+          "Value": "Fri, 03 Jan 2025 05:31:51 GMT"
         }
       ],
       "EndpointProperties": [
@@ -245,6 +245,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "js/exam.js",
+      "AssetFile": "js/exam.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2232"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wzUcjCS82MqKZmP3suGtAIw5AFbrDpNt0/da2xSd7+c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Jan 2025 05:44:09 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wzUcjCS82MqKZmP3suGtAIw5AFbrDpNt0/da2xSd7+c="
+        }
+      ]
+    },
+    {
+      "Route": "js/exam.tkp7hvw736.js",
+      "AssetFile": "js/exam.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2232"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wzUcjCS82MqKZmP3suGtAIw5AFbrDpNt0/da2xSd7+c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Jan 2025 05:44:09 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tkp7hvw736"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wzUcjCS82MqKZmP3suGtAIw5AFbrDpNt0/da2xSd7+c="
+        },
+        {
+          "Name": "label",
+          "Value": "js/exam.js"
         }
       ]
     },

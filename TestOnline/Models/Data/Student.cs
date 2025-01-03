@@ -4,31 +4,18 @@ namespace TestOnLine.Models.Data
     public class Student
     {
         [SugarColumn(IsPrimaryKey = true)]
-        public int StudentId { get; set; }
+        public string StudentId { get; set; }
 
-        public int ClassId { get; set; }
+        public string ClassId { get; set; }
 
-        public string? Name { get; set; }
+        public string Name { get; set; }
 
-        public string? Password { get; set; }
-
-        public int FacultyId { get; set; }
+        public string Password { get; set; }
 
         [SugarColumn(IsIgnore = true)]
-        public string? Department
-        {
-            get
-            {
-                if (FacultyId == 6)
-                    return "计算机学院";
-                return department;
-            }
-            set
-            {
-                department = value;
-            }
-        }
+        public string FacultyId { get; set; }
 
-        private string? department;
+        [SugarColumn(IsIgnore = true)]
+        public string Department { get; set; }
     }
 }

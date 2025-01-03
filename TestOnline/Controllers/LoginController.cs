@@ -12,11 +12,11 @@ namespace TestOnLine.Controllers
         }
 
         [HttpPost]
-        public IActionResult Validate(string role, int id, string password)
+        public IActionResult Validate(string role, string id, string password)
         {
             if (role == "teacher")
             {
-                if(id == 123456 && password == "admin")
+                if(id == "123456" && password == "admin")
                     return RedirectToAction("AdminDashboard", "Admin");
                 var teacher = _db.Queryable<Models.Data.Teacher>().Where(it => it.TeacherId == id && it.Password == password).First();
                 if (teacher != null)

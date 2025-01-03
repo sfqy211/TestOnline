@@ -1,0 +1,72 @@
+﻿@model TestOnLine.Controllers.Student.ExamViewModel
+
+@{
+    ViewData["Title"] = "Take Exam";
+}
+
+<div class="container">
+    <div class="row">
+        <!-- 左侧区域 -->
+        <div class="col-md-9">
+            <!-- 个人信息 -->
+            <div class="row">
+                <div class="col-md-12">
+                    <h5>姓名: @Model.StudentName</h5>
+                    <h5>学号: @Model.StudentId</h5>
+                </div>
+            </div>
+            <!-- 考试题目 -->
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="question-area">
+                        @if (Model.Questions.Count > 0)
+                        {
+                            <div id="question-0" class="question">
+                                <h6>问题 1</h6>
+                                <p>@Model.Questions[0].Text</p>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 右侧区域 -->
+        <div class="col-md-3">
+            <!-- 剩余时间 -->
+            <div class="row">
+                <div class="col-md-12">
+                    <h5>剩余时间: <span id="exam-timer"></span></h5>
+                </div>
+            </div>
+            <!-- 题目区域 -->
+            <div class="row">
+                <div class="col-md-12">
+                    <h5>题目列表</h5>
+                    <div id="question-buttons">
+                        @for (int i = 0; i < Model.Questions.Count; i++)
+                        {
+                            <button class="btn btn-primary question-btn" data-question-id="@i">@((i + 1))</button>
+                        }
+                    </div>
+                </div>
+            </div>
+            <!-- 保存和提交按钮 -->
+            <div class="row">
+                <div class="col-md-12 mt-3">
+                    <button class="btn btn-success" id="save-exam">保存试卷</button>
+                    <button class="btn btn-danger" id="submit-exam">提交试卷</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        const examData = {
+            remainingTime: @Model.RemainingTime,
+            questions: @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(Model.Questions))
+        };
+    </script>
+    <script src="~/js/exam.js"></script>
+}

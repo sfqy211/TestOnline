@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SqlSugar;
 using TestOnLine.Models.Data;
-using TestOnLine.Models.Management;
 
 namespace TestOnLine.Controllers.Teacher
 {
@@ -13,7 +12,7 @@ namespace TestOnLine.Controllers.Teacher
             _db = db;
         }
 
-        public IActionResult TeacherDashboard(int id)
+        public IActionResult TeacherDashboard(string id)
         {
             var teacher = _db.Queryable<Models.Data.Teacher>().Where(it => it.TeacherId == id).First();
             if (teacher == null)
@@ -26,7 +25,7 @@ namespace TestOnLine.Controllers.Teacher
             return View("TeacherDashboard");
         }
 
-        public async Task<IActionResult> LoadView(string viewName, int teacherId)
+        public async Task<IActionResult> LoadView(string viewName, string teacherId)
         {
             ViewBag.TeacherId = teacherId;
             switch (viewName)
@@ -40,46 +39,40 @@ namespace TestOnLine.Controllers.Teacher
             }
         }
 
-        private async Task<IActionResult> LoadCourseManagementView(int teacherId)
+        private async Task<IActionResult> LoadCourseManagementView(string teacherId)
         {
-            var model = new CourseManagementModel
+            var model = new Course
             {
-                CurrentCourses = await _db.Queryable<Course, TeacherCourseRelation>((c, tcr) => new JoinQueryInfos(
-                        JoinType.Inner, c.CourseId == tcr.CourseId
+                CurrentCourses = await _db.Queryable<Course, Models.Data.Teacher>((c, tcr) => new JoinQueryInfos(
+                        JoinType.Inner, c.TeacherId == tcr.TeacherId
                     ))
-                    .Where((c, tcr) => tcr.TeacherId == teacherId && c.IsExam == false)
+                    .Where((c, tcr) => c.IsExam == false)
                     .ToListAsync(),
 
-                CompletedCourses = await _db.Queryable<Course, TeacherCourseRelation>((c, tcr) => new JoinQueryInfos(
-                        JoinType.Inner, c.CourseId == tcr.CourseId
+                CompletedCourses = await _db.Queryable<Course, Models.Data.Teacher>((c, tcr) => new JoinQueryInfos(
+                        JoinType.Inner, c.TeacherId == tcr.TeacherId
                     ))
-                    .Where((c, tcr) => tcr.TeacherId == teacherId && c.IsExam == true)
+                    .Where((c, tcr) => c.IsExam == true)
                     .ToListAsync()
             };
 
             return PartialView("_CourseManagement", model);
         }
 
-        private async Task<IActionResult> LoadExamManagementView(int teacherId)
+        private async Task<IActionResult> LoadExamManagementView(string teacherId)
         {
-            var model = new ExamManagementModel
+            var model = new Exam
             {
-                OngoingExams = await _db.Queryable<Exam, Course, TeacherCourseRelation>((e, c, tcr) => new JoinQueryInfos(
+                OngoingExams = await _db.Queryable<Exam, Course, Models.Data.Teacher>((e, c, tcr) => new JoinQueryInfos(
                         JoinType.Inner, e.CourseId == c.CourseId,
-                        JoinType.Inner, c.CourseId == tcr.CourseId
+                        JoinType.Inner, c.TeacherId == tcr.TeacherId
                     ))
-                    .Where((e, c, tcr) => tcr.TeacherId == teacherId && e.EndTime > DateTime.Now)
                     .Select((e, c, tcr) => new OngoingExam
                     {
                         ExamId = e.ExamId,
-                        CourseName = c.Name,
                         ExamName = e.ExamName,
-                        EndTime = e.EndTime,
                         CourseId = e.CourseId,
-                        Data = e.Data,
-                        Description = e.Description,
-                        StartTime = e.StartTime,
-                        Score = e.Score
+                        TotalScore = e.TotalScore
                     })
                     .ToListAsync()
             };

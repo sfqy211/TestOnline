@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SqlSugar;
 using TestOnLine.Models.Data;
-using TestOnLine.Models.Management;
 
 namespace TestOnLine.Controllers.Student
 {
@@ -13,7 +12,7 @@ namespace TestOnLine.Controllers.Student
             _db = db;
         }
 
-        public IActionResult StudentDashboard(int id)
+        public IActionResult StudentDashboard(string id)
         {
             var student = _db.Queryable<Models.Data.Student>().Where(it => it.StudentId == id).First();
             if (student == null)
@@ -26,7 +25,7 @@ namespace TestOnLine.Controllers.Student
             return View("StudentDashboard");
         }
 
-        public async Task<IActionResult> LoadView(string viewName, int studentId)
+        public async Task<IActionResult> LoadView(string viewName, string studentId)
         {
             ViewBag.StudentId = studentId;
             switch (viewName)
@@ -42,9 +41,9 @@ namespace TestOnLine.Controllers.Student
             }
         }
 
-        private async Task<IActionResult> LoadCourseManagementView(int studentId)
+        private async Task<IActionResult> LoadCourseManagementView(string studentId)
         {
-            var model = new CourseManagementModel
+            var model = new Course
             {
                 CurrentCourses = await _db.Queryable<Course>()
                     .Where(c => SqlFunc.Subqueryable<ClassCourseRelation>()
@@ -66,14 +65,14 @@ namespace TestOnLine.Controllers.Student
             return PartialView("_CourseManagement", model);
         }
 
-        private async Task<IActionResult> LoadExamManagementView(int studentId)
+        private async Task<IActionResult> LoadExamManagementView(string studentId)
         {
-            var model = new ExamManagementModel
+            var model = new Exam
             {
                 OngoingExams = await _db.Queryable<Exam, Course>((e, c) => new JoinQueryInfos(
                         JoinType.Inner, e.CourseId == c.CourseId
                     ))
-                .Where((e, c) => e.EndTime > DateTime.Now && SqlFunc.Subqueryable<ClassCourseRelation>()
+                .Where((e, c) => SqlFunc.Subqueryable<ClassCourseRelation>()
                     .Where(ccr => ccr.CourseId == c.CourseId && SqlFunc.Subqueryable<Models.Data.Student>()
                         .Where(s => s.StudentId == studentId && s.ClassId == ccr.ClassId)
                         .Any())
@@ -81,23 +80,18 @@ namespace TestOnLine.Controllers.Student
                 .Select((e, c) => new OngoingExam
                 {
                     ExamId = e.ExamId,
-                    CourseName = c.Name,
                     ExamName = e.ExamName,
-                    EndTime = e.EndTime,
                     CourseId = e.CourseId,
-                    Data = e.Data,
-                    Description = e.Description,
-                    StartTime = e.StartTime,
-                    Score = e.Score
+                    TotalScore = e.TotalScore
                 })
                 .ToListAsync()
             };
             return PartialView("_ExamManagement", model);
         }
 
-        private IActionResult LoadGradeManagementView(int studentId)
+        private IActionResult LoadGradeManagementView(string studentId)
         {
-            var model = new GradeManagementModel
+            var model = new Grade
             {
                 CourseGrades = new List<Course>(),
                 ExamGrades = new List<Exam>()
@@ -105,9 +99,9 @@ namespace TestOnLine.Controllers.Student
             return PartialView("_GradeManagement", model);
         }
 
-        public async Task<IActionResult> CourseManagement(int studentId)
+        public async Task<IActionResult> CourseManagement(string studentId)
         {
-            var model = new CourseManagementModel
+            var model = new Course
             {
                 CurrentCourses = await _db.Queryable<Course>()
                     .Where(c => SqlFunc.Subqueryable<ClassCourseRelation>()
