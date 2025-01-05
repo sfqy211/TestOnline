@@ -2,7 +2,7 @@
 {
     public class Grade
     {
-        public required List<Course> CourseGrades { get; set; }
-        public required List<Exam> ExamGrades { get; set; }
+        public List<Course> CourseGrades { get; set; }
+        public List<Exam> ExamGrades { get; set; }
     }
 }

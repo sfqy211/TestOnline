@@ -9,8 +9,8 @@ namespace TestOnLine.Models.Data
         public string CourseId { get; set; }
         public string ExamName { get; set; }
         public float TotalScore { get; set; }
-        public Int16 Time { get; set; }
-        public string RightQuestionInfo { get; set; }
+        public int Time { get; set; }
+        public float Proportion { get; set; }
 
         [SugarColumn(IsIgnore = true)]
         public List<OngoingExam> OngoingExams { get; set; }

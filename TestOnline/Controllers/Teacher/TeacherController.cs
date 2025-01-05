@@ -71,8 +71,7 @@ namespace TestOnLine.Controllers.Teacher
                     {
                         ExamId = e.ExamId,
                         ExamName = e.ExamName,
-                        CourseId = e.CourseId,
-                        TotalScore = e.TotalScore
+                        CourseId = e.CourseId
                     })
                     .ToListAsync()
             };

@@ -15,8 +15,8 @@ namespace TestOnLine.Models.Data
         [SugarColumn(IsIgnore = true)]
         public string FacultyId { get; set; }
         [SugarColumn(IsIgnore = true)]
-        public required List<Course> CurrentCourses { get; set; }
+        public List<Course> CurrentCourses { get; set; }
         [SugarColumn(IsIgnore = true)]
-        public required List<Course> CompletedCourses { get; set; }
+        public List<Course> CompletedCourses { get; set; }
     }
 }

@@ -5,7 +5,7 @@ namespace TestOnLine.Models.Data
     {
         [SugarColumn(IsPrimaryKey = true)]
         public string StudentId { get; set; }
-
+        [SugarColumn(IsNullable = true)]
         public string ClassId { get; set; }
 
         public string Name { get; set; }

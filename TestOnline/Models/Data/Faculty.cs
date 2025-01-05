@@ -7,6 +7,6 @@ namespace TestOnLine.Models.Data
         [SugarColumn(IsPrimaryKey = true)]
         public string FacultyId { get; set; }
 
-        public required string Name { get; set; }
+        public string Name { get; set; }
     }
 }

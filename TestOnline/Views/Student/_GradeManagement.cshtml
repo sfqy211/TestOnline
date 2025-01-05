@@ -9,13 +9,16 @@
 
 <h4>课程总成绩</h4>
 <ul>
-    
-</ul>
-
-<h4>考试成绩</h4>
-<ul>
-    @foreach (var examGrade in Model.ExamGrades)
+    @foreach (var courseGrade in Model.CourseGrades)
     {
-            <li>@examGrade.ExamName: @examGrade.TotalScore</li>
+        <li>@courseGrade.Name: @courseGrade.Credit</li>
     }
 </ul>
+
+@* <h4>考试成绩</h4> *@
+@* <ul> *@
+@*     @foreach (var examGrade in Model.ExamGrades) *@
+@*     { *@
+@*             <li>@examGrade.ExamName: @examGrade.TotalScore</li> *@
+@*     } *@
+@* </ul> *@

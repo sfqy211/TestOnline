@@ -35,7 +35,7 @@ namespace TestOnLine.Controllers.Student
                 case "ExamManagement":
                     return await LoadExamManagementView(studentId);
                 case "GradeManagement":
-                    return LoadGradeManagementView(studentId);
+                    return await LoadGradeManagementView(studentId);
                 default:
                     return NotFound();
             }
@@ -76,26 +76,62 @@ namespace TestOnLine.Controllers.Student
                     .Where(ccr => ccr.CourseId == c.CourseId && SqlFunc.Subqueryable<Models.Data.Student>()
                         .Where(s => s.StudentId == studentId && s.ClassId == ccr.ClassId)
                         .Any())
-                    .Any())
+                    .Any() && c.IsCompleted == false)
                 .Select((e, c) => new OngoingExam
                 {
                     ExamId = e.ExamId,
                     ExamName = e.ExamName,
                     CourseId = e.CourseId,
-                    TotalScore = e.TotalScore
+                    TotalScore = e.TotalScore,
+                    CourseName = c.Name
                 })
                 .ToListAsync()
             };
             return PartialView("_ExamManagement", model);
         }
 
-        private IActionResult LoadGradeManagementView(string studentId)
+        private async Task<IActionResult> LoadGradeManagementView(string studentId)
         {
+            var examScores = await _db.Queryable<StudentExamRelation, Exam, Course, Models.Data.Student>((ser, e, c, s) => new JoinQueryInfos(
+                    JoinType.Inner, ser.ExamId == e.ExamId,
+                    JoinType.Inner, e.CourseId == c.CourseId,
+                    JoinType.Inner, ser.StudentId == s.StudentId
+                ))
+                .Where((ser, e, c, s) => s.StudentId == studentId)
+                .Select((ser, e, c, s) => new
+                {
+                    e.ExamName,
+                    ser.StudentScore,
+                    e.TotalScore,
+                    e.CourseId,
+                    e.Proportion
+                })
+                .ToListAsync();
+
+            var courseGrades = examScores
+                .GroupBy(es => es.CourseId)
+                .Select(g => new
+                {
+                    CourseId = g.Key,
+                    TotalScore = g.Sum(es => es.StudentScore * es.Proportion)
+                })
+                .ToList();
+
             var model = new Grade
             {
-                CourseGrades = new List<Course>(),
-                ExamGrades = new List<Exam>()
+                CourseGrades = courseGrades.Select(cg => new Course
+                {
+                    CourseId = cg.CourseId,
+                    Name = _db.Queryable<Course>().Where(c => c.CourseId == cg.CourseId).Select(c => c.Name).First(),
+                    Credit = cg.TotalScore
+                }).ToList(),
+                ExamGrades = examScores.Select(es => new Exam
+                {
+                    ExamName = es.ExamName,
+                    TotalScore = es.TotalScore
+                }).ToList()
             };
+
             return PartialView("_GradeManagement", model);
         }
 

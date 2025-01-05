@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "B243pacpaZEzi2ybOFjazLr51sEW1EQ751CYS7BS66Q=",
+  "Hash": "7GylAdE8S+iiIstYi+fVpSqzHuIepf/8QaoBON7+aoA=",
   "Source": "TestOnLine",
   "BasePath": "_content/TestOnLine",
   "Mode": "Default",
@@ -115,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "tkp7hvw736",
-      "Integrity": "wzUcjCS82MqKZmP3suGtAIw5AFbrDpNt0/da2xSd7+c=",
+      "Fingerprint": "f1ptx5pgc8",
+      "Integrity": "/VZvOV98nB7TtJI6vf16Mlb5Ez8sQ6G/emmpZ+mRh18=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\exam.js"
@@ -1506,6 +1506,51 @@
       ]
     },
     {
+      "Route": "js/exam.f1ptx5pgc8.js",
+      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\js\\exam.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7190"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/VZvOV98nB7TtJI6vf16Mlb5Ez8sQ6G/emmpZ+mRh18=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 05 Jan 2025 08:09:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f1ptx5pgc8"
+        },
+        {
+          "Name": "label",
+          "Value": "js/exam.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/VZvOV98nB7TtJI6vf16Mlb5Ez8sQ6G/emmpZ+mRh18="
+        }
+      ]
+    },
+    {
       "Route": "js/exam.js",
       "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\js\\exam.js",
       "Selectors": [],
@@ -1516,7 +1561,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2232"
+          "Value": "7190"
         },
         {
           "Name": "Content-Type",
@@ -1524,11 +1569,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"wzUcjCS82MqKZmP3suGtAIw5AFbrDpNt0/da2xSd7+c=\""
+          "Value": "\"/VZvOV98nB7TtJI6vf16Mlb5Ez8sQ6G/emmpZ+mRh18=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 03 Jan 2025 05:44:09 GMT"
+          "Value": "Sun, 05 Jan 2025 08:09:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1538,52 +1583,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-wzUcjCS82MqKZmP3suGtAIw5AFbrDpNt0/da2xSd7+c="
-        }
-      ]
-    },
-    {
-      "Route": "js/exam.tkp7hvw736.js",
-      "AssetFile": "D:\\AHEU\\3rd_year\\codelearn\\aspnet\\TestOnline\\TestOnline\\wwwroot\\js\\exam.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2232"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"wzUcjCS82MqKZmP3suGtAIw5AFbrDpNt0/da2xSd7+c=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 03 Jan 2025 05:44:09 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "tkp7hvw736"
-        },
-        {
-          "Name": "label",
-          "Value": "js/exam.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-wzUcjCS82MqKZmP3suGtAIw5AFbrDpNt0/da2xSd7+c="
+          "Value": "sha256-/VZvOV98nB7TtJI6vf16Mlb5Ez8sQ6G/emmpZ+mRh18="
         }
       ]
     },

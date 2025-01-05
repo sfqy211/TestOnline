@@ -16,7 +16,7 @@ namespace TestOnLine.Controllers
         {
             if (role == "teacher")
             {
-                if(id == "123456" && password == "admin")
+                if(id == "admin" && password == "admin")
                     return RedirectToAction("AdminDashboard", "Admin");
                 var teacher = _db.Queryable<Models.Data.Teacher>().Where(it => it.TeacherId == id && it.Password == password).First();
                 if (teacher != null)

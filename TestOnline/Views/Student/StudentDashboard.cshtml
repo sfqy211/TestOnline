@@ -1,37 +1,37 @@
 ﻿@{
-    ViewData["Title"] = "学生仪表盘";
-    var studentId = ViewBag.StudentId;
+	ViewData["Title"] = "学生仪表盘";
+	var studentId = ViewBag.StudentId;
 }
 
 <div class="container-fluid">
-    <div class="row">
-        <div class="col-md-2 bg-light sidebar">
-            <div class="student-info p-3">
-                <h5>@ViewBag.StudentName</h5>
-                <p>@studentId</p>
-            </div>
-            <nav class="nav flex-column">
-                <button class="nav-link btn btn-link" onclick="loadContent(event, 'CourseManagement', @studentId)">课程管理</button>
-                <button class="nav-link btn btn-link" onclick="loadContent(event, 'ExamManagement', @studentId)">考试管理</button>
-                <button class="nav-link btn btn-link" onclick="loadContent(event, 'GradeManagement', @studentId)">成绩管理</button>
-            </nav>
-        </div>
-        <div class="col-md-9" id="content">
-            <h3>欢迎, @ViewBag.StudentName!</h3>
-            <p>请选择左侧菜单中的一个选项来管理您的课程、考试或成绩。</p>
-        </div>
-    </div>
+	<div class="row">
+		<div class="col-md-2 bg-light sidebar">
+			<div class="student-info p-3">
+				<h5>@ViewBag.StudentName</h5>
+				<p>@studentId</p>
+			</div>
+			<nav class="nav flex-column">
+				<button class="nav-link btn btn-link" onclick="loadContent(event, 'CourseManagement', @studentId)">课程管理</button>
+				<button class="nav-link btn btn-link" onclick="loadContent(event, 'ExamManagement', @studentId)">考试管理</button>
+				<button class="nav-link btn btn-link" onclick="loadContent(event, 'GradeManagement', @studentId)">成绩管理</button>
+			</nav>
+		</div>
+		<div class="col-md-9" id="content">
+			<h3>欢迎, @ViewBag.StudentName!</h3>
+			<p>请选择左侧菜单中的一个选项来管理您的课程、考试或成绩。</p>
+		</div>
+	</div>
 </div>
 
 @section Scripts {
-        <script>
-            function loadContent(event, viewName, studentId) {
-                fetch('/Student/LoadView?viewName=' + viewName + '&studentId=' + studentId)
-                    .then(response => response.text())
-                    .then(html => {
-                        document.getElementById('content').innerHTML = html;
-                    });
-            }
-        </script>
+		<script>
+			function loadContent(event, viewName, studentId) {
+				fetch('/Student/LoadView?viewName=' + viewName + '&studentId=' + studentId)
+					.then(response => response.text())
+					.then(html => {
+						document.getElementById('content').innerHTML = html;
+					});
+			}
+		</script>
 }
 
