@@ -11,6 +11,7 @@
                 <th>所属院系</th>
                 <th>课程名称</th>
                 <th>学分</th>
+                <th>学时</th>
                 <th>是否考试</th>
                 <th>是否结课</th>
             </tr>
@@ -23,6 +24,7 @@
                         <td>@course.FacultyId</td>
                         <td>@course.Name</td>
                         <td>@course.Credit</td>
+                        <td>@course.CreditHours</td>
                         <td>@(course.IsExam.ToString() == "True" ? "是" : "否")</td>
                         <td>@(course.IsCompleted.ToString() == "True" ? "是" : "否")</td>
                     </tr>

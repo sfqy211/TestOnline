@@ -7,11 +7,11 @@ namespace TestOnLine.Models.Data
         [SugarColumn(IsPrimaryKey = true)]
         public string CourseId { get; set; }
         public string TeacherId { get; set; }
-        public bool IsExam { get; set; }
         public string Name { get; set; }
         public float Credit { get; set; }
-        public bool IsCompleted { get; set; }
         public int CreditHours { get; set; }
+        public bool IsExam { get; set; }
+        public bool IsCompleted { get; set; }
         [SugarColumn(IsIgnore = true)]
         public string FacultyId { get; set; }
         [SugarColumn(IsIgnore = true)]

@@ -14,8 +14,5 @@ namespace TestOnLine.Models.Data
 
         [SugarColumn(IsIgnore = true)]
         public string FacultyId { get; set; }
-
-        [SugarColumn(IsIgnore = true)]
-        public string Department { get; set; }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using NuGet.DependencyResolver;
 using SqlSugar;
 using TestOnLine.Models.Data;
 
@@ -59,23 +60,24 @@ namespace TestOnLine.Controllers.Admin
 
             if (students.Any())
             {
-                var facultyIds = students.Select(s => s.FacultyId).Distinct().ToList();
-                var faculties = await _db.Queryable<Models.Data.Faculty>()
-                    .In(f => f.FacultyId, facultyIds)
+                var classIds = students.Select(s => s.ClassId).Distinct().ToList();
+                var classes = await _db.Queryable<Models.Data.Class>()
+                    .In(c => c.ClassId, classIds)
                     .ToListAsync();
 
                 foreach (var student in students)
                 {
-                    var faculty = faculties.FirstOrDefault(f => f.FacultyId == student.FacultyId);
-                    if (faculty != null)
+                    var studentClass = classes.FirstOrDefault(c => c.ClassId == student.ClassId);
+                    if (studentClass != null)
                     {
-                        student.Department = faculty.Name;
+                        student.FacultyId = studentClass.FacultyId;
                     }
                 }
             }
 
             return PartialView("_StudentSearchResults", students);
         }
+
 
 
 
@@ -94,6 +96,23 @@ namespace TestOnLine.Controllers.Admin
             var courses = await _db.Queryable<Models.Data.Course>()
                 .Where(c => c.Name.Contains(courseName))
                 .ToListAsync();
+
+            if (courses.Any())
+            {
+                var teacherIds = courses.Select(c => c.TeacherId).Distinct().ToList();
+                var teachers = await _db.Queryable<Models.Data.Teacher>()
+                    .In(t => t.TeacherId, teacherIds)
+                    .ToListAsync();
+
+                foreach (var course in courses)
+                {
+                    var teacher = teachers.FirstOrDefault(t => t.TeacherId == course.TeacherId);
+                    if (teacher != null)
+                    {
+                        course.FacultyId = teacher.FacultyId;
+                    }
+                }
+            }
 
             return PartialView("_CourseSearchResults", courses);
         }
