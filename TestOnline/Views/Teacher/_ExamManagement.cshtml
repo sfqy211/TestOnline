@@ -7,13 +7,13 @@
 
 <h3>考试管理</h3>
 
-<h4>目前正在进行的考试</h4>
+<h4>请对尚未结课的课程设置考试信息</h4>
 <ul>
     @foreach (var exam in Model.OngoingExams)
     {
-            <li>
-                <strong>科目:</strong> @exam.CourseName <br />
-                <strong>考试名称:</strong> <a href="/Exam/Start/@exam.ExamId?teacherId=@teacherId">@exam.ExamName</a> <br />
-            </li>
+        <li>
+            <strong>科目:</strong> @exam.CourseName <br />
+            <strong>考试名称:</strong> <a asp-action="CreateExam" asp-controller="Teacher" asp-route-examId="@exam.ExamId" asp-route-teacherId="@teacherId">@exam.ExamName</a> <br />
+        </li>
     }
 </ul>

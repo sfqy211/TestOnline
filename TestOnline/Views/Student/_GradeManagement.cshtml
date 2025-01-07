@@ -7,18 +7,11 @@
 
 <h3>成绩管理</h3>
 
-<h4>课程总成绩</h4>
+<h4>考试成绩</h4>
 <ul>
-    @foreach (var courseGrade in Model.CourseGrades)
+    @foreach (var examGrade in Model.ExamGrades)
     {
-        <li>@courseGrade.Name: @courseGrade.Credit</li>
+        <li>@examGrade.ExamName: @examGrade.StudentScore</li>
     }
 </ul>
 
-@* <h4>考试成绩</h4> *@
-@* <ul> *@
-@*     @foreach (var examGrade in Model.ExamGrades) *@
-@*     { *@
-@*             <li>@examGrade.ExamName: @examGrade.TotalScore</li> *@
-@*     } *@
-@* </ul> *@

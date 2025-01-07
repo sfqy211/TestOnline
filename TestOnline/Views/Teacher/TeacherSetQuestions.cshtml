@@ -1,5 +1,150 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@using TestOnLine.Models.Data
+@model Exam
 @{
+    ViewData["Title"] = "设计考试内容";
+    var teacherId = ViewBag.TeacherId;
+}
+
+<h2>设计考试内容</h2>
+
+<form method="post" asp-action="CreateExam" asp-controller="Teacher">
+    <input type="hidden" name="ExamId" value="@Model.ExamId" />
+    <input type="hidden" name="TeacherId" value="@teacherId" />
+    <div class="form-group">
+        <label for="ExamName">考试名称</label>
+        <input type="text" class="form-control" id="ExamName" name="ExamName" value="@Model.ExamName" required />
+    </div>
+    <div class="form-group">
+        <label for="Time">考试时间（分钟）</label>
+        <input type="number" class="form-control" id="Time" name="Time" value="@Model.Time" required />
+    </div>
+
+    <h3>选择题</h3>
+    <div id="choice-questions">
+        @for (int i = 0; i < Model.ChoiceQuestions.Count; i++)
+        {
+            <div class="choice-question">
+                <div class="form-group">
+                    <label for="ChoiceQuestions[@i].Text">题目</label>
+                    <input type="text" class="form-control" name="ChoiceQuestions[@i].Text" value="@Model.ChoiceQuestions[i].Text" required />
+                </div>
+                <div class="form-group">
+                    <label for="ChoiceQuestions[@i].OptionA">选项A</label>
+                    <input type="text" class="form-control" name="ChoiceQuestions[@i].OptionA" value="@Model.ChoiceQuestions[i].OptionA" required />
+                </div>
+                <div class="form-group">
+                    <label for="ChoiceQuestions[@i].OptionB">选项B</label>
+                    <input type="text" class="form-control" name="ChoiceQuestions[@i].OptionB" value="@Model.ChoiceQuestions[i].OptionB" required />
+                </div>
+                <div class="form-group">
+                    <label for="ChoiceQuestions[@i].OptionC">选项C</label>
+                    <input type="text" class="form-control" name="ChoiceQuestions[@i].OptionC" value="@Model.ChoiceQuestions[i].OptionC" required />
+                </div>
+                <div class="form-group">
+                    <label for="ChoiceQuestions[@i].OptionD">选项D</label>
+                    <input type="text" class="form-control" name="ChoiceQuestions[@i].OptionD" value="@Model.ChoiceQuestions[i].OptionD" required />
+                </div>
+                <div class="form-group">
+                    <label for="ChoiceQuestions[@i].Correct">正确答案</label>
+                    <input type="text" class="form-control" name="ChoiceQuestions[@i].Correct" value="@Model.ChoiceQuestions[i].Correct" required />
+                </div>
+				<div class="form-group">
+                    <label for="ChoiceQuestions[@i].Score">分数</label>
+                    <input type="number" class="form-control" name="ChoiceQuestions[@i].Score" value="@Model.ChoiceQuestions[i].Score" required />
+                </div>
+            </div>
+        }
+    </div>
+    <button type="button" class="btn btn-secondary" onclick="addChoiceQuestion()">添加选择题</button>
+
+    <h3>填空题</h3>
+    <div id="completion-questions">
+        @for (int i = 0; i < Model.CompletionQuestions.Count; i++)
+        {
+            <div class="completion-question">
+                <div class="form-group">
+                    <label for="CompletionQuestions[@i].Text">题目</label>
+                    <input type="text" class="form-control" name="CompletionQuestions[@i].Text" value="@Model.CompletionQuestions[i].Text" required />
+                </div>
+                <div class="form-group">
+                    <label for="CompletionQuestions[@i].Correct">正确答案</label>
+                    <input type="text" class="form-control" name="CompletionQuestions[@i].Correct" value="@Model.CompletionQuestions[i].Correct" required />
+                </div>
+				<div class="form-group">
+					<label for="CompletionQuestions[@i].Score">分数</label>
+					<input type="number" class="form-control" name="CompletionQuestions[@i].Score" value="@Model.CompletionQuestions[i].Score" required />
+				</div>
+            </div>
+        }
+    </div>
+    <button type="button" class="btn btn-secondary" onclick="addCompletionQuestion()">添加填空题</button>
+
+    <button type="submit" class="btn btn-primary">保存考试</button>
+</form>
+
+@section Scripts {
+    <script>
+        let choiceQuestionIndex = @Model.ChoiceQuestions.Count;
+        let completionQuestionIndex = @Model.CompletionQuestions.Count;
+
+        function addChoiceQuestion() {
+            const choiceQuestionsDiv = document.getElementById('choice-questions');
+            const newQuestionDiv = document.createElement('div');
+            newQuestionDiv.className = 'choice-question';
+            newQuestionDiv.innerHTML = `
+                <div class="form-group">
+                    <label for="ChoiceQuestions[${choiceQuestionIndex}].Text">题目</label>
+                    <input type="text" class="form-control" name="ChoiceQuestions[${choiceQuestionIndex}].Text" required />
+                </div>
+                <div class="form-group">
+                    <label for="ChoiceQuestions[${choiceQuestionIndex}].OptionA">选项A</label>
+                    <input type="text" class="form-control" name="ChoiceQuestions[${choiceQuestionIndex}].OptionA" required />
+                </div>
+                <div class="form-group">
+                    <label for="ChoiceQuestions[${choiceQuestionIndex}].OptionB">选项B</label>
+                    <input type="text" class="form-control" name="ChoiceQuestions[${choiceQuestionIndex}].OptionB" required />
+                </div>
+                <div class="form-group">
+                    <label for="ChoiceQuestions[${choiceQuestionIndex}].OptionC">选项C</label>
+                    <input type="text" class="form-control" name="ChoiceQuestions[${choiceQuestionIndex}].OptionC" required />
+                </div>
+                <div class="form-group">
+                    <label for="ChoiceQuestions[${choiceQuestionIndex}].OptionD">选项D</label>
+                    <input type="text" class="form-control" name="ChoiceQuestions[${choiceQuestionIndex}].OptionD" required />
+                </div>
+                <div class="form-group">
+                    <label for="ChoiceQuestions[${choiceQuestionIndex}].Correct">正确答案</label>
+                    <input type="text" class="form-control" name="ChoiceQuestions[${choiceQuestionIndex}].Correct" required />
+                </div>
+                <div class="form-group">
+                    <label for="ChoiceQuestions[${choiceQuestionIndex}].Score">分数</label>
+                    <input type="number" class="form-control" name="ChoiceQuestions[${choiceQuestionIndex}].Score" required />
+                </div>
+            `;
+            choiceQuestionsDiv.appendChild(newQuestionDiv);
+            choiceQuestionIndex++;
+        }
+
+        function addCompletionQuestion() {
+            const completionQuestionsDiv = document.getElementById('completion-questions');
+            const newQuestionDiv = document.createElement('div');
+            newQuestionDiv.className = 'completion-question';
+            newQuestionDiv.innerHTML = `
+                <div class="form-group">
+                    <label for="CompletionQuestions[${completionQuestionIndex}].Text">题目</label>
+                    <input type="text" class="form-control" name="CompletionQuestions[${completionQuestionIndex}].Text" required />
+                </div>
+                <div class="form-group">
+                    <label for="CompletionQuestions[${completionQuestionIndex}].Correct">正确答案</label>
+                    <input type="text" class="form-control" name="CompletionQuestions[${completionQuestionIndex}].Correct" required />
+                </div>
+                <div class="form-group">
+                    <label for="CompletionQuestions[${completionQuestionIndex}].Score">分数</label>
+                    <input type="number" class="form-control" name="CompletionQuestions[${completionQuestionIndex}].Score" required />
+                </div>
+            `;
+            completionQuestionsDiv.appendChild(newQuestionDiv);
+            completionQuestionIndex++;
+        }
+    </script>
 }

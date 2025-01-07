@@ -13,6 +13,8 @@ namespace TestOnLine.Models.Data
         public bool IsExam { get; set; }
         public bool IsCompleted { get; set; }
         [SugarColumn(IsIgnore = true)]
+        public float CourseScore { get; set; }
+        [SugarColumn(IsIgnore = true)]
         public string FacultyId { get; set; }
         [SugarColumn(IsIgnore = true)]
         public List<Course> CurrentCourses { get; set; }

@@ -31,5 +31,12 @@
                             document.getElementById('content').innerHTML = html;
                         });
                 }
+                function toggleCourseStatus(courseId) {
+                    fetch(`/Teacher/ToggleCourseStatus?courseId=${courseId}`)
+                        .then(response => response.text())
+                        .then(html => {
+                            document.getElementById('content').innerHTML = html;
+                    });
+            }
             </script>
 }

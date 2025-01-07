@@ -5,20 +5,28 @@
     var teacherId = ViewBag.TeacherId;
 }
 
-<h3>课程管理</h3>
+<div id="course-management-content">
+    <h3>课程管理</h3>
 
-<h4>目前正在教的课程</h4>
-<ul>
-    @foreach (var course in Model.CurrentCourses)
-    {
-        <li>@course.Name</li>
-    }
-</ul>
+    <h4>目前正在教的课程</h4>
+    <ul>
+        @foreach (var course in Model.CurrentCourses)
+        {
+                <li>
+                @course.Name
+                    <button onclick="toggleCourseStatus('@course.CourseId')">切换状态</button>
+                </li>
+        }
+    </ul>
 
-<h4>已经结束的课程</h4>
-<ul>
-    @foreach (var course in Model.CompletedCourses)
-    {
-        <li>@course.Name</li>
-    }
-</ul>
+    <h4>已经结束的课程</h4>
+    <ul>
+        @foreach (var course in Model.CompletedCourses)
+        {
+                <li>
+                @course.Name
+                    <button onclick="toggleCourseStatus('@course.CourseId')">切换状态</button>
+                </li>
+        }
+    </ul>
+</div>

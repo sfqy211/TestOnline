@@ -13,10 +13,4 @@
     <PackageReference Include="SqlSugarCore" Version="5.1.4.172" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Models\Admin\" />
-    <Folder Include="Models\Student\" />
-    <Folder Include="Models\Teacher\" />
-  </ItemGroup>
-
 </Project>
